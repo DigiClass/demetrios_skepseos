@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/Simona/Desktop/dsetemplate/texts/editions/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory tiid="hmt" tiversion="4.0" xmlns="http://chs.harvard.edu/xmlns/cts/ti"
+    xmlns:dc="http://purl.org/dc/elements/1.1">
+    <ctsnamespace abbr="greekLit" ns="chs.harvard.edu/ctsns/greekLit">
+        <description xml:lang="en"> The &quot;First Thousand Years of Greek&quot; project's
+            inventory of Greek texts. </description>
+    </ctsnamespace>
+    <ctsnamespace abbr="botcar" ns="folio.furman.edu/ctsns/botcar">
+        <description xml:lang="en"> Botanica Caroliniana: historical texts on the natural history
+            of the Carolinas. </description>
+    </ctsnamespace>
+    <collection id="fufolio" isdefault="yes">
+        <title xml:lang="en" xmlns="http://purl.org/dc/elements/1.1/">Texts for research published
+            by Furman University.</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/"> Christopher W. Blackwell </creator>
+        <coverage xml:lang="en" xmlns="http://purl.org/dc/elements/1.1/">Texts under editing. </coverage>
+        <description xml:lang="en" xmlns="http://purl.org/dc/elements/1.1/">Misc. texts in English,
+            French, Greek, and Latin </description>
+        <rights xml:lang="en" xmlns="http://purl.org/dc/elements/1.1/"> Licensed under the terms of
+            the Creative Commons Attribution-ShareAlike 3.0 Unported license (CC BY-SA 3.0).
+        </rights>
+    </collection>
+    <!-- up to here -->
+    
+    <textgroup urn="urn:cts:greekLit:tlg0099">
+        <groupname xml:lang="en">Strabo</groupname>
+        <work urn="urn:cts:greekLit:tlg0099.tlg001" xml:lang="grc">
+            <title xml:lang="en">Geography</title>
+            <edition urn="urn:cts:greekLit:tlg0099.tlg001.radt">
+                <label xml:lang="en">Stephan Radt's edition of Strabo (Göttingen 2002-2011), used by Biraschi</label>
+                <online docname="f29biraschi.xml f30biraschi.xml f31biraschi.xml f45biraschi.xml"> 
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                            <citation label="segment" xpath="/tei:seg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:ab"></citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg0099.tlg001.perseus-grc1">
+                <label xml:lang="en">Meineke's edition of Strabo (Leipzig 1877), as found in the Perseus Library</label>
+                <online docname="f29pagani.xml"> 
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                            <citation label="segment" xpath="/tei:seg[@n='?']" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:ab"></citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg0099.tlg001.belles-lettes">
+                <label xml:lang="en">The French Belles-lettes edition, started in 1969,
+                    available until volume 9 (book 12) from 1981 and volume 4 (book 7) from 1989</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition><!-- this edition is used by Biraschi for the fragments of book 7. She did not have Radt's edition at her disposal when she did her edition of Demetrios -->
+        </work>
+    </textgroup>
+    <textgroup urn="urn:cts:greekLit:tlg0008">
+        <groupname xml:lang="en">Athenaeus</groupname>
+        <work urn="urn:cts:greekLit:tlg0008.tlg001" xml:lang="grc">
+            <title xml:lang="en">Deipnosophists</title>
+            <edition urn="urn:cts:greekLit:tlg0008.tlg001.perseus-grc">
+                <label xml:lang="en">Gulick's Loeb edition (Cambridge, MA 1927-1941), as found in the Perseus-Library</label>
+                <online docname=""><!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg0008.tlg001.kaibel">
+                <label xml:lang="en">Kaibel's edition (Leipzig 1887-1890), used by Biraschi</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg0008.tlg001.olson">
+            <label xml:lang="en">the newer Loeb edition, by Olson (Cambridge, MA 2006-2012)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg0008.tlg001.canofra">
+                <label xml:lang="en">Canfora's edition (Roma 2001), based on Kaibel's</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition> <!-- not sure if we will use the two last ones? -->
+        </work>      
+    </textgroup>
+    <textgroup urn="urn:cts:greekLit:tlg0525">
+        <groupname xml:lang="en">Pausanias</groupname>
+        <work urn="urn:cts:greekLit:tlg0525.tlg001" xml:lang="grc">
+            <title xml:lang="en">Description of Greece</title>
+            <edition urn="urn:cts:greekLit:tlg0525.tlg001.perseus-grc">
+                <label xml:lang="en">Spiro's edition (Leipzig 1903), as found in the Perseus-Library</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg0525.tlg001.rocha-pereira">
+                <label xml:lang="en">Rocha-Pereira's edition (second edition, Leipzig 1989-1990)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition><!-- Biraschi does not tell us which edition she uses, neither does Gaede -->
+        </work>      
+    </textgroup>
+    <textgroup urn="urn:cts:greekLit:tlg1389">
+        <groupname xml:lang="en">Harpocration</groupname> 
+        <work urn="urn:cts:greekLit:tlg1389.tlg001" xml:lang="grc">
+            <title xml:lang="la">Lexicon in decem oratores Atticos</title>
+            <edition urn="urn:cts:greekLit:tlg1389.tlg001.dindorf">
+                <label xml:lang="en">Dindorf's edition (Oxford 1853)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition><!-- Harpocration is not yet in the Perseus-Library --> <!-- Biraschi does not tell us which edition she uses -->
+        </work>
+    </textgroup>
+    <textgroup urn="urn:cts:greekLit:tlg4085">
+        <groupname xml:lang="en">Hesychius</groupname>
+        <work urn="urn:cts:greekLit:tlg4085.tlg.002" xml:lang="grc">
+            <title xml:lang="la">Lexicon (Α—Ο)</title>
+            <edition urn="urn:cts:greekLit:tlg4085.tlg.002"> <!-- .latte; checkti command returned this as wrong --> 
+                <label xml:lang="la">Hesychii Alexandrii Lexicon</label>
+                <online docname="f30biraschi.xml f31biraschi.xml f30gaede.xml f31gaede.xml f30pagani.xml"> <!-- for the moment we use this for Gaede and Pagani too SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>  
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                            <citation label="segment" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:ab" xpath="/tei:seg[@n='?']"></citation>
+                        </citation>  
+                    </citationMapping>
+                </online><!-- this first volume has been published well before the two subsequent ones. TLG lists them separately and has for the second part an older version by Schmidt (tlg4085.tlg003)-->
+            </edition>
+        </work>
+        <work urn="urn:cts:greekLit:tlg4085:tlg.004" xml:lang="grc">
+            <title xml:lang="la">Lexicon (Π‑Σ)</title>
+            <edition urn="urn:cts:greekLit:tlg4085.tlg.004.hansen">
+                <label xml:lang="en">Hansen's edition of the second volume  (Berlin, New York 2005)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition> <!-- I guess this edition and the next one, should be used instead of tlg4085.tlg003 -->
+        </work>
+        <work urn="urn:cts:greekLit:tlg4085.tlg.005" xml:lang="grc">
+            <title xml:lang="la">Lexicon (Τ‑Ω)</title>
+            <edition urn="urn:cts:greekLit:tlg4085.tlg.005"> <!-- .cunningham-hansen checkti command returned this as wrong-->
+                <label xml:lang="en">Cunningham and Hansen's edition of the last volume (Berlin, New York 2009)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> <!-- I am running into difficulties here: can we really speak of different works for the three volumes of the lexicon? -->
+    </textgroup> <!-- Biraschi does not tell us which editions she uses, and Hesychius is not yet in the Perseus-Library -->
+    
+    <textgroup urn="urn:cts:greekLit:tlg4028">
+        <groupname xml:lang="en">Stephanus of Byzantium</groupname>
+        <work urn="urn:cts:greekLit:tlg4028.tlg001" xml:lang="grc">
+            <title xml:lang="la">Ethnica</title>
+            <edition urn="urn:cts:greekLit:tlg4028.tlg001.chs01">
+                <label xml:lang="en">Digital edition by Neel Smith</label>
+                <online docname="StephByz-p5.xml">
+                    <validate schema="chstei.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Entry" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n = '?']"/>
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg4028.tlg001.meineke">
+                <label xml:lang="en">Meineke's edition (Berlin 1849), used by Biraschi</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+        <work urn="urn:cts:greekLit:tlg4028.tlg003" xml:lang="grc">
+            <title xml:lang="la">Ethnica (Libri Α‑Γ) </title>
+            <edition urn="urn:cts:greekLit:tlg4028.tlg003.billerbeck">
+                <label xml:lang="en">The first volume of Billerbeck's edition (Berlin 2006)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+        <work urn="urn:cts:greekLit:tlg4028.tlg004" xml:lang="grc">
+            <title  xml:lang="la">Ethnica (Libri Δ‑Ι)</title>
+            <edition urn="urn:cts:greekLit:tlg4028.tlg004.billerbeck-zubler">
+                <label xml:lang="en">This is the second volume of Billerbeck's edition (Berlin ‑ New York 2011)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work> <!-- same question: can we speak of different works for the edition of the subsequent volumes? -->
+    </textgroup> <!-- Steph. Byz. is not yet in the Perseus-Library -->
+    
+    <textgroup urn="urn:cts:greekLit:tlg4083">
+        <groupname xml:lang="la">Eustathius</groupname>
+        <work urn="urn:cts:greekLit:tlg4083.tlg001" xml:lang="grc">
+            <title xml:lang="la">Eustathii archiepiscopi Thessalonicensis commentarii ad Homeri Iliadem pertinentes</title>
+            <edition urn="urn:cts:greekLit:tlg4083.tlg001.vandervalk">
+                <label xml:lang="en">van der Valk's edition in 4 volumes (Leiden 1971-1987)</label>
+                <online docname="f30pagani.xml"> 
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg4083.tlg001.stallbaum">
+                <label xml:lang="en">Stallbaum's edition (Leipzig 1827-1830)</label>
+                <online docname="f30gaede.xml">
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition> <!-- this could be the older one used by Gaede, before 1880 -->
+        </work>
+        <work urn="urn:cts:greekLit:tlg4083.tlg003" xml:lang="grc">
+            <title xml:lang="la">Eustathii archiepiscopi Thessalonicensis commentarii ad Homeri Odysseam</title>
+            <edition urn="urn:cts:greekLit:tlg4083.tlg003.stallbaum">
+                <label xml:lang="en">Stallbaum's edition in 2 volums (Leipzig 1825-1826 )</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition> 
+        </work>
+    </textgroup><!-- Biraschi does not tell which edition she uses -->
+   
+    <textgroup urn="urn:cts:greekLit:tlg5030">
+        <groupname xml:lang="la">Tzetzes</groupname>
+        <work urn="urn:cts:greekLit:tlg5030.tlg001" xml:lang="grc">
+            <title xml:lang="la">Scholia in Lycophronem, in Lycophronis Alexandra vol. 2</title> <!-- ?? -->
+            <edition urn="urn:cts:greekLit:tlg5030.tlg001.scheer">
+                <label xml:lang="en">Scheer's edition (Berlin 1958)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition><!-- can there be a title for a edition? -->
+            <edition urn="urn:cts:greekLit:tlg5030.tlg001.Leone">
+                <label xml:lang="en">Scholia vetera et paraphrases in Lycophronis Alexandram; An edition by Leone (Galatina 2002), which Biraschi uses</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg5030.tlg001.kinkel">
+                <label xml:lang="en">Kinkel Lycophronis Alexandra (Leibzig 1880). Here again the scholia are in the second volume.</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition> 
+            <edition urn="urn:cts:greekLit:tlg5030.tlg001.bachmann">
+                <label xml:lang="en">L. Bachmann, Scholia vetusta in Lycophronis Alexandriam, Rostock 1848. But the part where the scholion Gaede's quots from is missing in this edition</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition><!-- It is still not clear wich edition Gaede may have used. The one published in 1880 has probably not yet been available and the one from 1848 is missing the part where the fr. 75 is comming from -->
+       </work>     
+   </textgroup>
+    
+    <textgroup urn="urn:cts:greekLit:tlg5012">
+        <groupname xml:lang="la">Scholia in Apollonium Rhodium vetera</groupname> <!-- there is no author's name here: what is to put in the groupname?? -->
+        <work urn="urn:cts:greekLit:tlg5012.tlg001" xml:lang="grc">
+            <title xml:lang="la">Scholia in Apollonium Rhodium vetera</title>
+            <edition urn="urn:cts:greekLit:tlg5012.tlg001.wendel">
+                <label xml:lang="en">Wendel's edition (Berlin 1935), which Biraschi uses </label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg5012.tlg001.keil">
+                <label xml:lang="en">(Heinrich) Keil's edition (Leipzig 1854). It is the second volume of Merkel's Teubner edition of Apollonios Rhodios</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition> <!-- it is probably the one used by Gaede -->
+            <edition urn="urn:cts:greekLit:tlg5012.tlg001.schaefer">
+                <label xml:lang="en">(Gottfried Heinrich) Schaefer's edition (Leibzig 1813). It is agian the second volume of a revision of Brunck's edition of Apollonios Rhodios The original work os from 1780, but the revison is for the first volume 1810 and the second volum 1813</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup>
+    
+    <textgroup urn="urn:cts:greekLit:tlg5038">
+        <groupname xml:lang="la">Scholia in Theocritum</groupname>
+        <work urn="urn:cts:greekLit:tlg5038.tlg001" xml:lang="grc">
+            <title xml:lang="la">Scholia in Theocritum vetera</title>
+            <edition urn="urn:cts:greekLit:tlg5038.tlg001.wendel">
+                <label xml:lang="en">Wendel's edition (Leipzig 1914), used by Biraschi</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+            <edition urn="urn:cts:greekLit:tlg5038.tlg001.dübner"><!-- the title is slightly different to the one of Wendel. Can we add a title for the edition? -->
+                <label xml:lang="en">Scholia in Theocritum; Dübner's edition (Paris 1878)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition> <!-- I am alluding to this edition in the book. It might also have been the one available for Gaede -->
+            <edition urn="urn:cts:greekLit:tlg5038.tlg001">
+                <label xml:lang="en">he second volume of Ahrens's edition of Bucolicorum graecorum Theocriti, Bionis, Moschi reliquae (leipzig 1859)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition> <!-- that could have been another of the editions available to Gaede -->
+        </work> 
+    </textgroup>
+    
+    <textgroup urn="urn:cts:greekLit:tlg5034">
+        <groupname xml:lang="la">Scholia in Pindarum</groupname>
+        <work urn="urn:cts:greekLit:tlg5034.tlg001" xml:lang="grc">
+            <title xml:lang="la">Scholia vetera in Pindari carmina</title>
+            <edition urn="urn:cts:greekLit:tlg5034.tlg001.drachmann">
+                <label xml:lang="en">Drachmann's edition (Leipzig 1903-1927), used by Biraschi</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup> 
+    
+    <textgroup urn="urn:cts:greekLit:tlg5023">
+        <groupname xml:lang="la">Scholia in Euripidem</groupname>
+        <work urn="urn:cts:greekLit:tlg5023.tlg001" xml:lang="grc">
+            <title xml:lang="la">Scholia in Euripidem</title>
+            <edition urn="urn:cts:greekLit:tlg5023.tlg001.schwartz">Schwartz's edition (Berlin 1887-1891)
+                <label xml:lang="en">Scholia in Euripidem</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+        <work urn="urn:cts:greekLit:tlg5023.tlg019" xml:lang="grc">
+            <title xml:lang="la">Scholia Graeca in Euripidis tragoedias</title>
+            <edition urn="urn:cts:greekLit:tlg5023.tlg019.dindorf">
+                <label xml:lang="en">Dindorf's edition (Oxford 1863)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup> <!-- Biraschi does not specify which edition she uses. Only Dindorf was probably available for Gaede-->
+    
+    <textgroup urn="urn:cts:greekLit:tlg5026">
+        <groupname xml:lang="la">Scholia in Homerum</groupname> <!-- there is one level missing: in TLG 1) Scholia in Homerum (5026); 2) Scholia in Iliadem; 3) Erbse's edition (5026.001) -->
+        <work urn="urn:cts:greekLit:tlg5026.tlg001" xml:lang="grc">
+            <title  xml:lang="la">Scholia Graeca in Homeri Iliadem (scholia vetera)</title>
+            <edition urn="urn:cts:greekLit:tlg5026.tlg001"><!-- is it necessary to add .erbse here? :tlg5026.tlg001 points already to Erbse's edition -->
+                <label xml:lang="en">Erbse's edition (Berlin 1969-1977, 1988</label>
+                <online docname="f30biraschi.xml f30pagani.xml f31biraschi.xml f31gaede.xml f31pagani.xml"> 
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']">
+                            <citation label="segment" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:ab" xpath="/tei:seg[@n='?']"></citation>
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition> 
+        </work>
+        <work urn="urn:cts:greekLit:tlg5026.tlg.017" xml:lang="grc">
+            <title  xml:lang="la">Homeri Ilias. cum brevi annotatione curante C.G. Heyne ; accedunt scholia minora passim emendata </title>
+            <edition urn="urn:cts:greekLit:tlg5026.tlg.017"> <!-- Schould that be completed?With .Heyne for instance -->
+                <label xml:lang="en">Heyne's Ilias edition with some scholia as parallel texts (Oxford 1834), designated as scholia D in the TLG</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation> <!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>  
+        </work>
+        <work urn="urn:cts:greekLit:tlg5026.tlg.018.thiel" xml:lang="grc"> <!-- cts urn did not exist SS -->
+            <title  xml:lang="la">Scholia D in Iliadem</title>
+            <edition urn="urn:cts:greekLit:tlg5026.tlg.018.thiel"><!-- .XXX" -->
+                <label xml:lang="en">von Thiel's edition of the D scholia., found at the web-page of the Uni Köln</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation> <!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+        <work urn="urn:cts:greekLit:tlg5026" xml:lang="grc"> <!-- cts urn to be completed SS -->
+            <title xml:lang="la">Scholia graeca in Homeri Iliadem ex codicibus aucta et emendata (vol. 1-4)</title>
+            <title xml:lang="la">Scholia graeca in Homeri Iliadem Townleyana (vol. 5-6)</title>
+            <edition urn="urn:cts:greekLit:tlg5026"> 
+                <label xml:lang="en">Dindorf's edition of the scholia (vol. 1+2 (Oxford 1875)= venentus A; vol. 3+4 (Oxford 1877) = venetus B) + Maass's edition for vol. 5+6 (Oxford 1887-1888) = Townleyana),</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation> <!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+        <work urn="urn:cts:greekLit:tlg5026" xml:lang="grc"> <!-- cts urn to be completed SS -->
+            <title xml:lang="la">Scholia in Homeri Iliadem</title>
+            <edition urn="urn:cts:greekLit:tlg5026"> <!-- to be completed -->
+                <label xml:lang="en">Bekker's edition (Berlin 1825). It is the one Gaede probably used except for those he attributes to Nicanor</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online>
+            </edition>
+        </work>
+    </textgroup> <!-- no idea how to deal with the scholia to the Iliad!!! --> <!-- other texts and editions we will use -->
+    
+    <textgroup urn="urn:cts:greekLit:tlg9010">
+        <groupname  xml:lang="la">Suda</groupname>
+        <work urn="urn:cts:greekLit:tlg9010.001" xml:lang="grc">
+            <title xml:lang="la"> Suidae lexicon</title>
+            <edition urn="urn:cts:greekLit:tlg9010.001.adler">
+                <label xml:lang="en">Adler's edition (Leipzig 1928-1935)</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation> <!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online></edition>
+            <edition urn="urn:cts:greekLit:tlg9010.001">
+                <label xml:lang="en">Suda On Line (SOL), based on Adler's edition</label>
+                <online docname=""> <!-- to be completed SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online></edition>
+        </work> <!-- there must be a urn for the Suda On Line --> 
+    </textgroup> <!-- Gaede does not quote the Souda, but Müller for instance does, which edition did he use? -->
+    
+    <textgroup urn="urn:cts:greekLit:tlg4099">
+        <groupname xml:lang="la">Etymologicum magnum</groupname>
+            <work urn="urn:cts:greekLit:tlg4099.tlg001" xml:lang="grc"><title xml:lang="la">Etymologicum magnum</title>
+                <edition urn="urn:cts:greekLit:tlg4099.tlg001.gaisford">
+                    <label xml:lang="en">Gaisford's edition (Oxford 1848)</label>
+                    <online docname=""> <!-- to be completed SS -->
+                        <validate schema="tei_bare.rng"/>
+                        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                        <citationMapping>
+                            <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                        </citationMapping>
+                    </online>
+                </edition></work> <!-- this is still the standard edition-->
+    </textgroup>
+    
+        <textgroup urn="urn:cts:greekLit:tlg2034">
+            <groupname xml:lang="la">Porphyrius</groupname>
+            <work urn="urn:cts:greekLit:tlg2034.tlg014" xml:lang="grc">
+                <title xml:lang="la">Porphyrii quaestionum Homericarum ad Iliadem pertinentium reliquiae</title>
+                <edition urn="urn:cts:greekLit:tlg2034.tlg014.schrader">
+                    <label xml:lang="en">Schrader's edition (Leipzig 1880-1882)</label>
+                    <online docname=""> <!-- to be completed SS -->
+                        <validate schema="tei_bare.rng"/>
+                        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                        <citationMapping>
+                            <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                        </citationMapping>
+                    </online>
+                </edition>
+                <edition urn="urn:cts:greekLit:tlg2034.tlg014.macphail">
+                    <label xml:lang="en">Porphyry's Homeric questions on the Iliad; MacPhail's edition (Berlin 2011)</label>
+                    <online docname=""> <!-- to be completed SS -->
+                        <validate schema="tei_bare.rng"/>
+                        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                        <citationMapping>
+                            <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                        </citationMapping>
+                    </online>
+                </edition>
+            </work>
+        </textgroup> <!-- Gaede quotes the passage as a scholium to the Iliad -->
+        
+ <textgroup urn="urn:cts:greekLit:tlg0004">
+            <groupname xml:lang="la">Diogenes Laertius</groupname>
+     <work  urn="urn:cts:greekLit:tlg0004.tlg001" xml:lang="grc">
+         <title xml:lang="la">Diogenis Laertii vitae philosophorum</title>
+         <edition urn="urn:cts:greekLit:tlg0004.tlg001.long">
+             <label xml:lang="en">Long's edition (Oxford 1964)></label>
+             <online docname=""> <!-- to be completed SS -->
+                 <validate schema="tei_bare.rng"/>
+                 <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                 <citationMapping>
+                     <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                 </citationMapping>
+             </online>
+         </edition>
+         <edition urn="urn:cts:greekLit:tlg0004.tlg001.perseus-grc">
+             <label xml:lang="en">Hicks's edition (Cambridge, MA 1972), as in the Perseus-Library</label>
+             <online docname=""> <!-- to be completed SS -->
+                 <validate schema="tei_bare.rng"/>
+                 <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                 <citationMapping>
+                     <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                 </citationMapping>
+             </online>
+         </edition> <!-- this edition has an English title "Lives of Eminent Philosophers". Same question as above: can we give titles to editions? -->
+         <edition urn="urn:cts:greekLit:tlg0004.tlg001.marcovich">
+             <label xml:lang="en">Marcovich's edition (Stuttgard, Leipzig 1999)></label>
+             <online docname=""> <!-- to be completed SS -->
+                 <validate schema="tei_bare.rng"/>
+                 <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                 <citationMapping>
+                     <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                 </citationMapping>
+             </online>
+         </edition>
+     </work>
+ </textgroup>
+  <textgroup urn="urn:cts:greekLit:tlg4040">
+    <groupname xml:lang="la">Photius</groupname>
+            <work urn="urn:cts:greekLit:tlg4040.tlg001" xml:lang="grc" >
+                <title xml:lang="la">Bibliotheca </title>
+                <edition urn="urn:cts:greekLit:tlg4040.tlg001.henry">
+                    <label xml:lang="en">Henry's edition (Paris 1959-1977)</label>
+                    <online docname=""> <!-- to be completed SS -->
+                        <validate schema="tei_bare.rng"/>
+                        <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                        <citationMapping>
+                            <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                        </citationMapping>
+                    </online>
+                </edition>
+            </work>
+  </textgroup>
+    <textgroup urn="urn:cts:greekLit:tlg0087"> <!-- to complete-->
+    <groupname xml:lang="grc">Συναγωγὴ λέξεων χρησίμων (Σ)</groupname>
+        <work urn="urn:cts:greekLit:tlg0087" xml:lang="grc"> <!-- to complete-->
+        <title xml:lang="la">Bekker, Anectota graeca, vol. 1</title> <!-- Is this the right title or should Synagoge be the title here? But where to put Anectota graeca then?-->
+            <edition urn="urn:cts:greekLit:tlg0087"> <!-- to complete-->
+            <label xml:lang="en">The byzantine lexicon is printed in the first volume of Bekker's Anectota graeca (Berlin 1814-1821), it is edition Biraschi quotes</label>
+            <online docname=""> <!-- to be completed when SS -->
+                <validate schema="tei_bare.rng"/>
+                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                <citationMapping>
+                    <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                </citationMapping>
+            </online>
+        </edition>
+            <edition urn="urn:cts:greekLit:tlg0087"><!-- to complete-->
+            <label xml:lang="en">Cunningham's new edition of the Συναγωγὴ λέξεων χρησίμων (Berlin, New York 2003), the entries relevent for Demetrios appear in the versio codicis B under α 344 and α 676</label>
+            <online docname=""> <!-- to be completed SS -->
+                <validate schema="tei_bare.rng"/>
+                <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                <citationMapping>
+                    <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                </citationMapping>
+            </online>
+        </edition>
+    </work>
+</textgroup>
+    <textgroup urn="urn:cts:greekLit:2766"> <!-- to complete-->
+    <groupname xml:lang="la">Eudociae Augustae Violarium</groupname>
+    <work urn="urn:cts:greekLit:2766" xml:lang="grc"> <!-- to complete-->
+            <title xml:lang="la">Eudociae Augustae Violarium</title>
+        <edition urn="urn:cts:greekLit:2766"><!-- to complete-->
+        <label xml:lang="en">Flach's edition (Leipzig 1880). It is to this edition Biraschi alludes for her dubious T11.</label>
+                <online docname=""> <!-- to be completed  SS -->
+                    <validate schema="tei_bare.rng"/>
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="division" scope="/tei:TEI/tei:text/tei:body" xpath="/tei:div[@n='?']"></citation><!-- a second level of citation possible, depending on the encoding SS -->
+                    </citationMapping>
+                </online></edition>
+    </work>
+</textgroup>
+</TextInventory>

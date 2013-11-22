@@ -1,0 +1,85 @@
+body {background-color:#E0FFFF;
+font-family: "Times New Roman", Times, serif;}
+
+text {display:block;}
+
+
+/*banner*/
+
+div#banner {
+    width: 100%;
+    height: 166px;
+    background: url(background.png) center;
+}
+div#banner div {
+    width: 100%;
+    height: 100%;
+    background: transparent url(Scepsis-coin.png) left no-repeat;
+}
+
+div#banner div div {
+    width: 100%;
+    height: 100%;
+    background: transparent url(Scepsis-map.png) right no-repeat;
+}
+
+div#banner div div h1 {
+    width: 100%;
+    height: 166px;
+    text-align: center;
+    padding-top: 65px;
+}
+
+
+/*buttons*/
+
+a:link  {color:#0000FF; text-decoration:none;}     /* unvisited link */
+a:link:visited {color:#4B0082; text-decoration:none;}  /* visited link */
+a:link:hover {color:#C71585; text-decoration:underline;}  /* mouse over link */
+a:link:active {color:#C71585; text-decoration:underline;}  /* selected link, doesn't work */
+ 
+
+.hidden_menu {
+    font-size:small;
+    color: #0000FF;
+    width: 100px;
+    margin-left: 10px;
+    position: relative;
+    display: none;
+}
+
+.unhidden_menu {
+    font-size:small;
+    color: #0000FF;
+    width: 100px;
+    margin-left: 10px;
+    position: relative;
+    display: block;
+}
+
+div#menu {
+    font-size:larger;
+    font-weight:bold;
+}
+
+div#menu ul li ul li {
+    list-style-type: none;
+    color:#0000FF; 
+    font-size:medium;
+    text-decoration:none;
+}
+
+div#menu ul li {
+    list-style-type: none;
+    color:#0000FF; 
+    font-size:large;
+    text-decoration:none;
+}
+
+div#menu ul {list-style-type:none;}
+
+div#menu ul li ul {list-style-type:none;}
+
+
+
+

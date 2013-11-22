@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_bare.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/demetrios.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="f45biraschi">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The fragments of Demetrios of Skepsis</title>
+                <author>Demetrios of Skepsis</author>
+                <editor>Dr Alexandra Trachsel</editor>
+                <funder>Marie Curie Research Fellowship Programme</funder>
+                <funder>University of Hamburg</funder>
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Encoder and editor of this digital publication</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Department of Classics</publisher>
+                <authority>King's College London</authority>
+                <address>
+                    <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                    <addrLine>(<ref>http://www.kcl.ac.uk/cch/</ref>)</addrLine>
+                </address>
+                <idno type="filename" xml:id="f45">F45</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                            (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                </availability>
+                <date>October 2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up in XML according to the TEI Guidelines at http://www.tei-c.org; schema
+                generated with ROMA and outlined in demetrios_ODD.xml and demetrios.rnc</p>
+            <projectDesc>
+                <p>XML document created for Dr Alexandra Trachsel's digital publication of the
+                    fragments of Demetrios of Skepsis, as part of her habilitation.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="Simona Stoyanova" when="2013-06">Created XML file, started
+                transcription</change>
+            <change who="Alexandra Trachsel" when="2013-07">Added translation, verification</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>F45 [Biraschi]</head>
+
+            <div type="edition" subtype="fragment" xml:id="biraschi.item_74" xml:lang="grc" n="1">
+                <ab>
+                    
+                    <seg type="context" resp="strabo" n="1">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001radt:12.3.20@ὑπονοεῖ-12.3.20@δόξαν">Strab. 12, 3, 20:</ref> 
+                        ὑπονοεῖ δὲ καὶ <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος"> <nameLink>ὁ</nameLink> <name>Σκήψιος</name></persName> 
+                        τὴν τοῦ ὀνόματος μετάπτωσιν ἐξ
+                        <placeName type="ethnic" nymRef="Ἄλυβες" ref="http://pleiades.stoa.org/places/554184">Ἀλύβων</placeName> 
+                        εἰς <placeName type="ethnic" nymRef="Χάλυβες">Χάλυβας</placeName>, τὰ δ᾿ ἑξῆς καὶ τὰ συνῳδὰ οὐ νοῶν - 
+                        καὶ μάλιστα ἐκ τίνος <placeName type="ethnic" nymRef="Ἁλιζῶνες">Ἁλιζώνους</placeName> εἴρηκε τοὺς 
+                        <placeName type="ethnic" nymRef="Χάλυβες">Χάλυβας</placeName> - ἀποδοκιμάζει τὴν δόξαν... 
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="2">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001radt:12.3.22@ὁ-12.3.22@φησίν">Strab. 12, 3, 22:</ref>
+                        <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος"><nameLink>ὁ</nameLink> δὲ <name>Σκήψιος</name></persName>
+                         οὔτε<anchor xml:id="app1"/> τὴν τούτου δόξαν (<persName key="Ephorus" nymRef="Ἔφορος">Ἐφόρου</persName>: 
+                        cf. <ref target="#bnj">BNJ 70, F 144</ref>), [ὡς] ἔοικεν, ἀποδεξάμενος<anchor xml:id="app2"/> οὔτε τὴν τῶν περὶ 
+                        <placeName type="city" key="pallene" nymRef="Παλλήνην" ref="http://pleiades.stoa.org/places/491682">Παλλήνην</placeName> 
+                        τοὺς <placeName type="ethnic" nymRef="Ἁλιζῶνες">Ἁλιζώνους</placeName> ὑπολαβόντων (ὧν ἐμνήσθημεν ἐν τοῖς 
+                        <placeName type="region" key="macedonia" nymRef="Μακεδονία" ref="http://pleiades.stoa.org/places/491656">Μακεδονικοῖς</placeName> 
+                        [<ref target="#strab">VII F 27</ref>]), ὁμοίως διαπορεῖ καὶ πῶς ἐκ τῶν ὑπὲρ τὸν 
+                        <placeName type="region" key="borysthenes" nymRef="Βορυσθένης" ref="http://pleiades.stoa.org/places/828250">Βορυσθένη</placeName> 
+                        νομάδων ἀφῖχθαι συμμαχίαν τοῖς <placeName type="ethnic" nymRef="Τρῶες">Τρωσί</placeName> 
+                        τις νομίσειεν &lt;ἄν&gt;<anchor xml:id="app3"/>, ἐπαινεῖ δὲ μάλιστα τὴν 
+                        <persName key="hecataeusmiletus" nymRef="Ἑκαταῖος ὁ Μιλήσιος"><name>Ἑκαταίου</name> <nameLink>τοῦ</nameLink> <name>Μιλησίου</name></persName> 
+                        καὶ <persName key="menecrateselea" nymRef="Μενεκράτης ὁ Ἐλαΐτης"><name>Μενεκράτους</name> <nameLink>τοῦ</nameLink> <name>Ἐλαΐτου</name></persName>, 
+                        τῶν <persName key="xenocrates" nymRef="Ξενοκράτης"><name>Ξενοκράτους</name></persName> γνωρίμων ἀνδρὸς,
+                        δόξαν καὶ τὴν <persName key="palaephatus" nymRef="Παλαίφατος"><name>Παλαιφάτου</name></persName>. 
+                        ὧν ὁ μὲν ἐν <title ref="urn:cts:greekLit:tlg0538.tlg002">Γῆς περιόδῳ</title> φησίν (<ref target="#bnj">BNJ 1 F 217</ref>)· 
+                    </seg>
+                    
+                    <seg type="fragment" resp="hecataeus" xml:id="periodosges" n="3">
+                        <ref target="urn:cts:greekLit:tlg0538.tlg002:@εἶτα-@ἐσβάλλει"/> 
+                        <cit>
+                            <quote source="#radt2002-11">εἶτα <placeName type="city" key="alazia" nymRef="Ἀλαζία">Ἀλαζία</placeName> πόλις ποταμὸς 
+                                <geogName type="river" key="odryses" nymRef="Ὀδρύσσης" ref="http://pleiades.stoa.org/places/511340">Ὀδρύσσης</geogName>
+                                ῥέων διὰ <geogName type="plain" key="mygdonia" nymRef="Μυγδονία" ref="http://pleiades.stoa.org/places/511325">Μυγδονίης πεδίου</geogName> 
+                                ἀπὸ δύσιος ἐκ τῆς λίμνης τῆς <geogName type="lake" key="daskylitis" nymRef="Δασκυλίτις" ref="http://pleiades.stoa.org/places/511224">Δασκυλίτιδος</geogName> 
+                                ἐς <geogName type="river" key="rhydacus" nymRef="Ῥύνδακος" ref="http://pleiades.stoa.org/places/511401">Ῥύνδακον</geogName> ἐσβάλλει.</quote>
+                        </cit>
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="4">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001radt:12.3.22@ἔρημον-12.3.22@περιόδῳ[2]"/>
+                        ἔρημον δὲ εἶναι νῦν τὴν <placeName type="city" key="alazia" nymRef="Ἀλαζία">Ἀλαζίαν</placeName>
+                        λέγει, κώμας δὲ πολλὰς τῶν <placeName type="ethnic" nymRef="Ἁλιζῶνες">Ἀλαζώνων</placeName><anchor xml:id="app4"/> 
+                        οἰκεῖσθαι, δι᾿ ὧν &lt;ὁ&gt; <geogName type="river" key="odryses" nymRef="Ὀδρύσσης" ref="http://pleiades.stoa.org/places/511340">Ὀδρύσσης</geogName> 
+                        ῥεῖ, ἐν δὲ ταύταις τὸν <persName type="divine" key="apollo" nymRef="Ἀπόλλων"><name>Ἀπόλλωνα</name></persName> 
+                        τιμᾶσθαι διαφερόντως, καὶ μάλιστα κατὰ τὴν ἐφορίαν τῶν 
+                        <placeName type="ethnic" key="cyzicus" nymRef="Κύζικος" ref="http://pleiades.stoa.org/places/511218">Κυζικηνῶν</placeName>. 
+                        ὁ δὲ <persName key="menecrateselea" nymRef="Μενεκράτης ὁ Ἐλαΐτης"><name>Μενεκράτης</name></persName> 
+                        ἐν τῇ <title ref="urn:cts:greekLit:tlg4344.tlg001">Ἑλλησποντιακῇ περιόδῳ</title> (<ref target="#fhg">FHG 2, 342</ref>)
+                    </seg> 
+                         
+                        <seg type="fragment" resp="menecrates" xml:id="Hellespontiake-periodos" n="5">
+                            <ref target="urn:cts:greekLit:tlg0099.tlg001radt:12.3.22@ὑπερκεῖσθαι-12.3.22@μέτρον"/> 
+                            <cit>
+                                <quote>ὑπερκεῖσθαι λέγει τῶν περὶ<anchor xml:id="app5"/> τὴν 
+                                    <placeName type="region" key="myrleia" nymRef="Μύρλεια" ref="http://pleiades.stoa.org/places/511194">Μύρλειαν</placeName>
+                                     τόπων ὀρεινὴν συνεχῆ, ἣν κατῴκει τὸ τῶν <placeName type="ethnic" nymRef="Ἁλιζῶνες">Ἁλιζώνων</placeName> ἔθνος· 
+                                    δεῖ δέ, φησί, γράφειν ἐν τοῖς δυσὶν<anchor xml:id="app6"/> λάβδα, τὸν δὲ ποιητὴν ἐν τῷ ἑνὶ γράφειν διὰ τὸ μέτρον.</quote>
+                            </cit>
+                        </seg>
+                    
+                    <seg type="context" resp="strabo" n="6">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001radt:12.3.22@ὁ[5]-12.3.22@φησιν"/>
+                            ὁ δὲ <persName key="palaephatus" nymRef="Παλαίφατος"><name>Παλαίφατός</name></persName> 
+                            φησιν (<ref target="#bnj">BNJ 44 F 4</ref>)
+                    </seg> 
+                        
+                        <seg type="fragment" resp="palaephatus" n="7">
+                            <ref target="urn:cts:greekLit:tlg0099.tlg001radt:12.3.22@ἐξ-12.3.22@στρατεῦσαι"/> 
+                            <cit>
+                                <quote>ἐξ <placeName type="ethnic" nymRef="Ἁλιζῶνες">Ἀλαζώνων</placeName><anchor xml:id="app7"/> 
+                                    τῶν ἐν τῇ <placeName corresp="alybe" nymRef="Ἀλόπη">Ἀλόπῃ</placeName> οἰκούντων, νῦν δὲ<anchor xml:id="app8"/>
+                                    <placeName type="city" key="zeleia" nymRef="Ζέλεια" ref="http://pleiades.stoa.org/places/511461">Ζελείᾳ</placeName>, 
+                                    τὸν <persName key="odius" nymRef="Ὄδιος"><name>Ὀδίον</name></persName> καὶ τὸν 
+                                    <persName key="epistrophus" nymRef="Ἐπίστροφος"><name>Ἐπίστροφον</name></persName> στρατεῦσαι...</quote>
+                            </cit>
+                        </seg>
+                        
+                    <seg type="context" resp="strabo" n="8">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001radt:12.3.22@τοὺς[2]-12.3.22@Τευθρανίαν"/>
+                            τοὺς περὶ <placeName type="city" key="pygela" nymRef="Πύγελα" ref="http://pleiades.stoa.org/places/599887/pygela">Πύγελα</placeName>
+                            λέγοντας τοὺς <placeName type="ethnic" key="amazons" nymRef="Ἀμαζῶνες">Ἀμαζῶνας</placeName> 
+                            μεταξὺ <placeName type="city" key="ephesus" nymRef="Ἔφεσος" ref="http://pleiades.stoa.org/places/599612">Ἐφέσου</placeName> 
+                            καὶ <placeName type="city" key="magnesiamaeander" nymRef="Μαγνησία" ref="http://pleiades.stoa.org/places/599778">Μαγνησίας</placeName> 
+                            καὶ <placeName type="city" key="priene" nymRef="Πριήνη" ref="http://pleiades.stoa.org/places/599905">Πριήνης</placeName>
+                            φλυαρεῖν φησὶν ὁ <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος">Δημήτριος</persName>· τὸ γὰρ
+                            <quote>τηλόθεν</quote> οὐκ ἐφαρμόττειν τῷ τόπῳ· πόσῳ οὖν<anchor xml:id="app9"/> μᾶλλον οὐκ ἐφαρμόττει τῷ περὶ 
+                            <placeName type="city" key="mysia" nymRef="Μυσία" ref="http://pleiades.stoa.org/places/550759">Μυσίαν</placeName> 
+                            καὶ <placeName type="city" key="teuthrania" nymRef="Τευθρανία" ref="http://pleiades.stoa.org/places/550916">Τευθρανίαν</placeName>. 
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="9">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:12.3.23@Νὴ-12.3.23@Ἑκαταῖος">Strab. 12, 3, 23:</ref> 
+                            Νὴ <persName type="divine" key="zeus" nymRef="Ζεύς"><name>Δία</name></persName> ἀλλά φησι δεῖν ἔνια καὶ ἀκύρως
+                            προστιθέμενα δέχεσθαι, ὡς καὶ (<ref target="urn:cts:greekLit:tlg0012.tlg001:2.863">Il. 2. 863</ref>) <quote>τῆλ᾿ ἐξ</quote> καὶ 
+                        (<ref target="urn:cts:greekLit:tlg0012.tlg002:18.5">Od. 18. 5</ref>) <quote><persName key="arnaeus" nymRef="Αρναῖος"><name>Αρναῖος</name></persName> 
+                            δ᾿ ὄνομ᾿ ἔσκε· τὸ γὰρ θέτο πότνια μήτηρ</quote> καὶ (<ref target="urn:cts:greekLit:tlg0012.tlg002:21.6">Od. 21. 6</ref>) 
+                            <quote>εἵλετο δὲ κληῗδ᾿ εὐκαμπέα χειρὶ παχείῃ (&lt;ἡ&gt; <persName key="penelope" nymRef="Πηνελόπη"><name>Πηνελόπη</name></persName>)</quote>. 
+                            δεδόσθω δὴ καὶ τοῦτο· ἀλλ᾿ ἐκεῖνα οὐ δοτέα οἷς προσέχων ὁ <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος">Δημήτριος</persName> 
+                            οὐδὲ τοῖς ὑπολαβοῦσι δεῖν ἀκούειν 
+                            <quote><ref target="urn:cts:greekLit:tlg0012.tlg001:2.857">τηλόθεν ἐκ <placeName type="city" key="calybe" nymRef="Χαλύβη">Χαλύβης</placeName></ref></quote> 
+                            πιθανῶς ἀντείρηκε. συγχωρήσας γὰρ ὅτι, εἰ καὶ μὴ ἔστι νῦν ἐν τοῖς 
+                            <placeName type="ethnic" nymRef="Χάλυβες">Χάλυψι</placeName>
+                            ἀργυρεῖα, ὑπάρξαι γε ἐνεδέχετο, ἐκεῖνό γε οὐ συγχωρεῖ ὅτι καὶ ἔνδοξα ἦν καὶ ἄξια μνήμης, καθάπερ τὰ σιδηρεῖα... τί &lt;δ&gt;᾿, εἰ μὴ κατὰ τοὺς ἥρωας,
+                            ἀλλὰ καθ᾿ <persName key="homer" nymRef="Ὅμηρος"><name>Ὅμηρον</name></persName> εἰς δόξαν ἀφῖκτο τὰ ἀργυρεῖα; ἆρα
+                            μέμψαιτό τις ἂν τὴν ἀπόφασιν τοῦ <persName key="homer" nymRef="Ὅμηρος"><name>ποιητοῦ</name></persName>; -πῶς οὖν εἰς τὸν 
+                            <rs key="homer" nymRef="Ὅμηρος"><name>ποιητὴν</name></rs> ἡ δόξα ἀφίκετο; -πῶς δ᾿ ἡ τοῦ ἐν τῇ 
+                            <placeName type="city" key="temesa" nymRef="Τεμέση">Τεμέσῃ</placeName> χαλκοῦ τῇ 
+                            <placeName type="region" key="italy" nymRef="Ἰταλία" ref="http://pleiades.stoa.org/places/1052">Ἰταλιώτιδι</placeName>... 
+                    </seg>
+                    
+                    <seg type="testimonium" xml:id="biraschi.item_8" resp="strabo" n="10">
+                        <title>[T8]</title>
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:12.3.23@ἀλλ'-12.3.23@Ἑκαταῖος"/> 
+                        ἀλλ᾿ οὐδ᾿οἷς συνηγορεῖ, τούτοις ὁμολογεῖ. τὰ γὰρ περὶ τὴν 
+                        <placeName type="city" key="skepsis" nymRef="Σκῆψις" ref="http://pleiades.stoa.org/places/550890">Σκῆψιν</placeName> τοποθετῶν, 
+                        τὴν ἑαυτοῦ πατρίδα, πλησίον τῆς <placeName type="city" key="skepsis" nymRef="Σκῆψις" ref="http://pleiades.stoa.org/places/550890">Σκήψεωος</placeName> 
+                        καὶ τοῦ <geogName type="river" key="aesepus" nymRef="Αἴσηπος" ref="http://pleiades.stoa.org/places/511141">Αἰσήπου</geogName>
+                        <placeName type="city" key="ainea" nymRef="Αἰνέα" ref="http://pleiades.stoa.org/places/554179">Αἰνέαν<anchor xml:id="app10"/></placeName> 
+                        κώμην καὶ <placeName type="city" key="argyria" nymRef="Ἀργυρία" ref="http://pleiades.stoa.org/places/550451">Ἀργυρίαν</placeName> λέγει
+                        καὶ <placeName type="city" key="alazonion" nymRef="Ἀλαζόνιον">Ἀλαζόνιον</placeName>· ... 
+                        ὁ δὲ <persName key="hecataeusmiletus" nymRef="Ἑκαταῖος ὁ Μιλήσιος"><name>Ἑκαταῖος</name></persName> ... 
+                    </seg>
+                </ab>
+            </div>
+
+
+            <div type="apparatus">
+                <listApp corresp="#biraschi.item_74">
+                    <app from="#app1">
+                        <rdg resp="bibliography.xml#P bibliography.xml#korais">οὔτε <note>prius P (coniecit Korais)</note></rdg>
+                        <rdg>οὐδὲ <note><foreign xml:lang="lat">cett</foreign>.</note></rdg>
+                    </app>
+
+                    <app from="#app2">
+                        <rdg resp="bibliography.xml#P">ἀποδεξάμενος</rdg>
+                        <rdg>ἕοικεν ἀποδεξάμενος <note><foreign xml:lang="lat">cett</foreign>.</note></rdg>
+                        <rdg resp="bibliography.xml#cobet">&lt;ὠς&gt; ἕοικεν, ἀποδεξάμενος <note>(Misc.
+                            186)</note></rdg>
+                    </app>
+
+                    <app from="#app3">
+                        <rdg resp="bibliography.xml#madvig" type="added">&lt;ἄν&gt; <note>(Adv. 1, 559)</note></rdg>
+                    </app>
+
+                    <app from="#app4">
+                        <rdg resp="bibliography.xml#eust bibliography.xml#xylander">Ἀλαζώνων <note>(coniecit Xylander)</note></rdg>
+                        <rdg resp="bibliography.xml#P">αλαζο-</rdg>
+                        <rdg>αμαζό- <note><foreign xml:lang="lat">cett</foreign>.</note></rdg>
+                    </app>
+
+                    <app from="#app5">
+                        <rdg resp="bibliography.xml#eust">περὶ</rdg>
+                        <rdg>ὑπὲρ <note><foreign xml:lang="lat">codd</foreign>.</note></rdg>
+                    </app>
+
+                    <app from="#app6">
+                        <rdg resp="bibliography.xml#P">δυσὶν</rdg>
+                        <rdg resp="bibliography.xml#eust">δύο <note><foreign xml:lang="lat">cett</foreign>.</note></rdg>
+                    </app>
+
+                    <app from="#app7">
+                        <rdg resp="bibliography.xml#P bibliography.xml#palmerius">Ἀλαζώνων <note>(coniecit Palmerius
+                            333)</note></rdg>
+                        <rdg resp="bibliography.xml#B">ἀλιζόνων</rdg>
+                        <rdg resp="bibliography.xml#C bibliography.xml#D">ἀμαζόνων</rdg>
+                        <rdg resp="bibliography.xml#eust">ἀμαζώνων</rdg>
+                    </app>
+
+                    <app from="#app8">
+                        <rdg resp="bibliography.xml#P bibliography.xml#meineke1877">δὲ</rdg>
+                        <note> (coniecit Meineke)</note>
+                        <rdg>δ' ἐν <note><foreign xml:lang="lat">cett</foreign>.</note></rdg>
+                    </app>
+
+                    <app from="#app9">
+                        <rdg resp="bibliography.xml#meineke1877">πόσῳ οὖν</rdg>
+                        <rdg resp="bibliography.xml#D">ὅπως οὖν</rdg>
+                        <rdg resp="bibliography.xml#B">ὁπωσοῦν</rdg>
+                        <rdg resp="bibliography.xml#C">ὁποσοῦν</rdg>
+                        <rdg resp="bibliography.xml#korais">ὁπόσῳ οὖν</rdg>
+                        <rdg resp="bibliography.xml#lasserre">ὅ πως οὐ</rdg>
+                    </app>
+
+                    <app from="#app10">
+                        <rdg resp="bibliography.xml#leaf1923">Αἰνέαν <note>(1923, 211)</note></rdg>
+                        <rdg>ἐνέαν <note><foreign xml:lang="lat">codd</foreign>.</note></rdg>
+                        <rdg resp="bibliography.xml#meineke1877">Νέαν</rdg>
+                    </app>
+                </listApp>
+            </div>
+
+                <div type="translation" xml:lang="en" n="1">
+                    <ab>
+                        <seg type="context"  resp="strabo" n="1"><title>Strab. 12, 3, 20:</title>
+                            The <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος">scholar
+                        from Scepsis</persName> also considers to change the name from <placeName
+                        type="ethnic" nymRef="Ἄλυβες" ref="http://pleiades.stoa.org/places/554184"
+                            >“Alybes”</placeName> to <placeName type="ethnic" nymRef="Χάλυβες"
+                        >“Chalybes”</placeName>, but, as he does not take into account what would
+                    follow from this or what would be in agreement with it, - in particular why the
+                    poet would have called the <placeName type="ethnic" nymRef="Χάλυβες"
+                        >Chalybes</placeName>
+                    <placeName type="ethnic" nymRef="Ἁλιζῶνες">Halizones</placeName> -, he rejects
+                    this opinion (...)</seg>
+                        
+                        <seg type="context"  resp="strabo" n="2"><title>Strab. 12, 3, 22:</title>
+                            The <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος">scholar
+                        from Scepsis</persName>, accepting apparently neither <persName
+                        key="Ephorus" nymRef="Ἔφορος">this scholar</persName>'s opinion nor the one
+                    from those supposing that the <placeName type="ethnic" nymRef="Ἁλιζῶνες"
+                        >Halizones</placeName> come from near <placeName type="city" key="pallene"
+                        nymRef="Παλλήνην" ref="http://pleiades.stoa.org/places/491682"
+                        >Pallene</placeName> (whom I mention in the parts on <placeName
+                        type="region" key="macedonia" nymRef="Μακεδονία"
+                        ref="http://pleiades.stoa.org/places/491656">Macedonia</placeName>), is
+                    likewise at lost to understand how someone could consider that an allied force
+                    could have been sent to the <placeName type="ethnic" nymRef="Τρῶες"
+                        >Trojans</placeName> from among the nomads living beyond the <placeName
+                        type="region" key="borysthenes" nymRef="Βορυσθένης"
+                        ref="http://pleiades.stoa.org/places/828250">Borysthenes</placeName>. He,
+                    however, fully approves of the opinions defended by <persName
+                        key="hecataeusmiletus" nymRef="Ἑκαταῖος ὁ Μιλήσιος"><name>Hecataeus</name>
+                        <nameLink>of</nameLink>
+                        <name>Miletus</name></persName>, by <persName key="menecrateselea"
+                        nymRef="Μενεκράτης ὁ Ἐλαΐτης">Menecrates <nameLink>from</nameLink>
+                        <name>Elaea</name></persName>, one among the disciples of <persName
+                        key="xenocrates" nymRef="Ξενοκράτης"><name>Xenocrates</name></persName>, and
+                    by <persName key="palaephatus" nymRef="Παλαίφατος"
+                        ><name>Palaephatus</name></persName>. Among these men, the <persName
+                        key="hecataeusmiletus" nymRef="Ἑκαταῖος ὁ Μιλήσιος">first</persName> says in
+                    his <title>Circuit of the Earth</title>:
+                        </seg> 
+                            
+                        <seg type="fragment" resp="hecataeus" n="3">
+                            <quote>Then comes
+                            the city of <placeName type="city" key="alazia" nymRef="Ἀλαζία"
+                                >Alazia</placeName>; the river <geogName type="river" key="odryses"
+                                nymRef="Ὀδρύσσης" ref="http://pleiades.stoa.org/places/511340"
+                                >Odrysses</geogName>, flowing from lake <geogName type="lake"
+                                key="daskylitis" nymRef="Δασκυλίτις"
+                                ref="http://pleiades.stoa.org/places/511224">Dascylitis</geogName>
+                            eastwards through the <geogName type="plain" key="mygdonia"
+                                nymRef="Μυγδονία" ref="http://pleiades.stoa.org/places/511325"
+                                >Mygdonian plain</geogName>, empties into the river <geogName
+                                type="river" key="rhydacus" nymRef="Ῥύνδακος"
+                                ref="http://pleiades.stoa.org/places/511401"
+                            >Rhyndacus</geogName>.</quote>
+                        </seg>
+                        
+                        <seg type="context" resp="strabo" n="4">
+                            He says that <placeName type="city"
+                        key="alazia" nymRef="Ἀλαζία">Alazia</placeName> is now deserted, but that
+                    many villages of the <placeName type="ethnic" nymRef="Ἁλιζῶνες"
+                        >Alazones</placeName>, through whose territory the <geogName type="river"
+                        key="odryses" nymRef="Ὀδρύσσης" ref="http://pleiades.stoa.org/places/511340"
+                        >Odrysses</geogName> flows, are inhabited; that <persName type="divine"
+                        key="apollo" nymRef="Ἀπόλλων"><name>Apollo</name></persName> was honoured
+                    there in a particularly intensive way, especially along the border with the
+                        <placeName type="ethnic" key="cyzicus" nymRef="Κύζικος"
+                        ref="http://pleiades.stoa.org/places/511218">Cyziceni</placeName>. <persName
+                        key="menecrateselea" nymRef="Μενεκράτης ὁ Ἐλαΐτης"
+                        ><name>Menecrates</name></persName>, in his <title>Circuit of the
+                        Hellespont</title>,
+                        </seg> 
+                        
+                        <seg type="fragment" resp="menecrates" n="5">
+                            <quote>says thatabove the area belonging
+                        to <placeName type="region" key="myrleia" nymRef="Μύρλεια"
+                            ref="http://pleiades.stoa.org/places/511194">Myrleia</placeName>, lies a
+                        continous mountainous plateau, that is inhabited by the tribe of the
+                            <placeName type="ethnic" nymRef="Ἁλιζῶνες">Halizones</placeName>. He
+                        claims that it has to be written with two lambda, but that the poet spells
+                        it with one because of the meter.</quote>
+                        </seg>
+                        
+                        <seg type="context" resp="strabo" n="6">
+                            <persName key="palaephatus" nymRef="Παλαίφατος"><name>Palaephatus</name></persName>, finally, says
+                        </seg>
+                        
+                        <seg type="fragment" resp="palaephatus" n="7">
+                        that <persName key="odius" nymRef="Ὄδιος"><name>Odios</name></persName> and
+                            <persName key="epistrophus" nymRef="Ἐπίστροφος"
+                            ><name>Epistrophos</name></persName> started their expedition from the
+                            <placeName type="ethnic" nymRef="Ἁλιζῶνες">Alazones</placeName> who
+                            dwelt in <placeName corresp="alybe" nymRef="Ἀλόπη">Alope</placeName>, which
+                        is now <placeName type="city" key="zeleia" nymRef="Ζέλεια"
+                            ref="http://pleiades.stoa.org/places/511461">Zeleia</placeName>.
+                        </seg>
+                        
+                
+                <seg type="context" resp="strabo" n="8">
+                    Nonetheless, <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος"
+                        >Demetrios</persName> pretends that those who located the <placeName
+                        type="ethnic" key="amazons" nymRef="Ἀμαζῶνες">Amazons</placeName> near
+                        <placeName type="city" key="pygela" nymRef="Πύγελα"
+                        ref="http://pleiades.stoa.org/places/599887/pygela">Pygela</placeName>,
+                    between <placeName type="city" key="ephesus" nymRef="Ἔφεσος"
+                        ref="http://pleiades.stoa.org/places/599612">Ephesus</placeName>, <placeName
+                        type="city" key="magnesiamaeander" nymRef="Μαγνησία"
+                        ref="http://pleiades.stoa.org/places/599778">Magnesia</placeName> and
+                        <placeName type="city" key="priene" nymRef="Πριήνη"
+                        ref="http://pleiades.stoa.org/places/599905">Priene</placeName>, talk
+                    nonsense, because the formula <quote>from far away</quote> does not fit this
+                    place. How much more it is unfitting for the region near <placeName type="city"
+                        key="mysia" nymRef="Μυσία" ref="http://pleiades.stoa.org/places/550759"
+                        >Mysia</placeName> and <placeName type="city" key="teuthrania"
+                        nymRef="Τευθρανία" ref="http://pleiades.stoa.org/places/550916"
+                        >Teuthrania</placeName>!</seg>
+                        
+                        <seg type="context" resp="strabo" n="9"><title>Strab. 12, 3, 23:</title> 
+                            But, by <persName type="divine" key="zeus" nymRef="Ζεύς"><name>Zeus</name></persName>, 
+                            he says that it is necessary to understand
+                    that some formula have been added while being used in an improper sense, as for
+                    instance <ref target="urn:cts:greekLit:tlg0012.tlg001:2.863">(Il. 2. 863)</ref> <quote>far from <placeName type="city" key="askania" nymRef="Ἀσκανία"
+                            ref="http://pleiades.stoa.org/places/511165">Ascania</placeName></quote> and 
+                            <ref target="urn:cts:greekLit:tlg0012.tlg002:18.5">(Od. 18.5)</ref> <quote>he has the name of <persName key="arnaeus"
+                            nymRef="Αρναῖος"><name>Arnaeus</name></persName>; the august mother gave
+                                it</quote> and <ref target="urn:cts:greekLit:tlg0012.tlg002:21.6">(Od. 21.6)</ref> <quote>(<persName key="penelope" nymRef="Πηνελόπη"
+                                ><name>Penelope</name></persName>) took the nicely bent key with her
+                        strong hand</quote>. Let’s accept this too. But one has not to
+                    accept the elements with which <persName key="demetriosskepsis"
+                        nymRef="Δημήτριος ὁ Σκήψιος">Demetrios</persName>, after having given them
+                    all his attention, is not able to give a convincing responds to those who
+                    maintain that one should hear the line <quote><ref target="urn:cts:greekLit:tlg0012.tlg001:2.857">far away from the
+                                <placeName type="city" key="calybe" nymRef="Χαλύβη"
+                                >Chalybe</placeName></ref></quote>. For, albeit he makes the
+                    concession that it is possible that silver-mines may have existed in the country
+                    of the <placeName type="ethnic" nymRef="Χάλυβες">Chalybes</placeName>, even if
+                    they do not exist anymore today, he does, however, not agree that they were
+                    famous and worthy of notice like the iron-mines (...)
+                    What then, if the silver-mines did not reach fame in the Heroic time but in
+                        <persName key="homer" nymRef="Ὅμηρος"><name>Homer</name></persName>’s one?
+                    Could one blame the assertion of the <persName key="homer" nymRef="Ὅμηρος"
+                            ><name>poet</name></persName>? How then did the fame come to the
+                        <persName key="homer" nymRef="Ὅμηρος"><name>poet</name></persName>'s ears?
+                    And how did the fame of the copper-mines of <placeName type="city" key="temesa"
+                        nymRef="Τεμέση">Temesa</placeName> in <placeName type="region" key="italy"
+                        nymRef="Ἰταλία" ref="http://pleiades.stoa.org/places/1052"
+                        >Italy</placeName> reach him? (Od. 1.184) (...)
+                        </seg>
+                        
+                        <seg type="testimonium" resp="strabo" n="10"><title>[T8]</title> 
+                            But, he does not even agree with
+                        those whose opinion he is defending. For, while describing the region around
+                            <placeName type="city" key="skepsis" nymRef="Σκῆψις"
+                            ref="http://pleiades.stoa.org/places/550890">Scepsis</placeName>, his
+                        own hometown, he mentions near <placeName type="city" key="skepsis"
+                            nymRef="Σκῆψις" ref="http://pleiades.stoa.org/places/550890"
+                            >Scepsis</placeName> and the <geogName type="river" key="aesepus"
+                            nymRef="Αἴσηπος" ref="http://pleiades.stoa.org/places/511141"
+                            >Aesepos</geogName>, the village <placeName type="city" key="ainea"
+                            nymRef="Αἰνέα" ref="http://pleiades.stoa.org/places/554179"
+                            >Ainea</placeName>, <placeName type="city" key="argyria"
+                            nymRef="Ἀργυρία" ref="http://pleiades.stoa.org/places/550451"
+                            >Argyria</placeName> and <placeName type="city" key="alazonion"
+                            nymRef="Ἀλαζόνιον">Alazonion</placeName> (...) 
+                            <persName key="hecataeusmiletus" nymRef="Ἑκαταῖος ὁ Μιλήσιος"
+                            ><name>Hecataeus</name></persName>(...)
+                        </seg>
+                    </ab>
+            </div>
+
+            <div type="commentary">
+                <p>1) In this passage Biraschi does sometimes not follow Radt's edition.</p>
+                <p>2) By mistake Biraschi refers to the end of the fragment as being T9. It is,
+                    however, T8.</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

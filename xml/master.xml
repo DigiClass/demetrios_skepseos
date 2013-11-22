@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<master xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xi:include href="f29biraschi.xml"/>
+    <xi:include href="f30biraschi.xml"/>
+    <xi:include href="f31biraschi.xml"/>
+    <xi:include href="f45biraschi.xml"/>
+    <xi:include href="f29gaede.xml"/>
+    <xi:include href="f30gaede.xml"/>
+    <xi:include href="f31gaede.xml"/>
+    <xi:include href="f29pagani.xml"/>
+    <xi:include href="f30pagani.xml"/>
+    <xi:include href="f31pagani.xml"/>
+</master>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../xslt/demetrios.css"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/demetrios.xsl"?>
+<?xml-model href="../schema/tei_bare.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="f29gaede">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The fragments of Demetrios of Skepsis</title>
+                <author>Demetrios of Skepsis</author>
+                <editor>Dr Alexandra Trachsel</editor>
+                <funder>Marie Curie Research Fellowship Programme</funder>
+                <funder>University of Hamburg</funder>
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Encoder and editor of this digital publication</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Department of Classics</publisher>
+                <authority>King's College London</authority>
+                <address>
+                    <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                    <addrLine>(<ref>http://www.kcl.ac.uk/cch/</ref>)</addrLine>
+                </address>
+                <idno type="filename" xml:id="f29">F29</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                            (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                </availability>
+                <date>October 2013</date>
+            </publicationStmt>
+            <sourceDesc>
+               <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up in XML according to the TEI Guidelines at http://www.tei-c.org; schema
+                generated with ROMA and outlined in demetrios_ODD.xml and demetrios.rnc</p>
+            <projectDesc>
+                <p>XML document created for Dr Alexandra Trachsel's digital publication of the
+                    fragments of Demetrios of Skepsis, as part of her habilitation.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="Simona Stoyanova" when="2013-06">Created XML file, started
+                transcription</change>
+            <change who="Alexandra Trachsel" when="2013-07">added translation</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>F29 [Gaede]</head>
+
+            <div type="edition" subtype="fragment" xml:id="gaede.item_37" xml:lang="grc" n="1">
+                <ab>
+                    <seg type="context" resp="strabo" n="1">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001:13.1.43@πολυπίδακον-13.1.43@αὐτῶν">Strab. 13, 1, 43:</ref> 
+                        πολυπίδακον δὲ τὴν <geogName type="mountain" key="Ida" nymRef="Ἴδη" ref="http://pleiades.stoa.org/places/550592">Ἴδην</geogName> 
+                        ἰδίως οἴονται λέγεσθαι διὰ τὸ πλῆθος τῶν ἐξ αὐτῆς ῥεόντων ποταμῶν καθ’ἃ μάλιστα ἡ 
+                        <placeName type="region" key="dardania" nymRef="Δαρδανική">Δαρδανικὴ</placeName> ὑποπέπτωκεν αὐτῇ (καὶ) μέχρι 
+                        <placeName type="city" key="skepsis" nymRef="Σκῆψις" ref="http://pleiades.stoa.org/places/550890">Σκήψιος</placeName> καὶ τὰ
+                        περὶ <placeName type="city" key="ilion" nymRef="Ἴλιον" ref="http://pleiades.stoa.org/places/550595">Ἴλιον</placeName>. 
+                        ἔμπειρος δ’ὢν τῶν τόπων ὡς ἂν ἐπιχώριος ἀνὴρ ὁ <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος"><name>Δημήτριος</name></persName> 
+                        τοτὲ μὲν οὕτως λέγει περὶ αὐτῶν 
+                    </seg>
+                        
+                        <seg type="fragment" resp="demetrios" xml:id="troic-diac" n="2">
+                            <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:13.1.43@ἔστι-13.1.43@Αἴσηπος"/>
+                            <cit>
+                                <quote>ἔστι γὰρ λόφος τις τῆς <geogName type="mountain" key="Ida" nymRef="Ἴδη" ref="http://pleiades.stoa.org/places/550592">Ἴδης</geogName>
+                                    <geogName type="mountain" key="cotylos" nymRef="Κότυλος" ref="http://pleiades.stoa.org/places/550668">Κότυλος</geogName>· 
+                                    ὑπέρκειται δ’οὗτος ἑκατόν που καὶ εἴκοσι σταδίοις <placeName type="city" key="skepsis" nymRef="Σκῆψις" ref="http://pleiades.stoa.org/places/550890">Σκήψιος</placeName> 
+                                    ἐξ οὗ ὅ τε <geogName type="river" key="scamandrus" nymRef="Σκάμανδρος" ref="http://pleiades.stoa.org/places/465994">Σκάμανδρος</geogName> 
+                                    ῥεῖ καὶ ὁ <geogName type="river" key="granicus" nymRef="Γράνικος" ref="http://pleiades.stoa.org/places/511260">Γράνικος</geogName> καὶ 
+                                    <geogName type="river" key="aesepus" nymRef="Αἴσηπος" ref="http://pleiades.stoa.org/places/511141">Αἴσηπος</geogName></quote>
+                            </cit>
+                        </seg>
+                    
+                    <seg type="context" resp="strabo" n="3">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001:13.1.43@οἱ-13.1.45@ἀπελίπομεν">until § 45 C603 inspired by Demetrios</ref>
+                    </seg>
+                </ab>
+            </div>
+
+
+            <div type="apparatus"/>
+
+            <div type="translation" xml:lang="en" n="1">
+                <ab>
+                <seg type="context" resp="strabo" n="1"><title>Strab. 13, 1, 43:</title> 
+                    It is believed that <geogName type="mountain" key="Ida" nymRef="Ἴδη"
+                        ref="http://pleiades.stoa.org/places/550592">Mount Ida</geogName> is
+                    pointedly called "many-fountained" because of the great number of rivers taking
+                    their spring from there, in particular in the region where the <placeName
+                        type="region" key="dardania" nymRef="Δαρδανική">Dardanian plain</placeName> lies beneath it
+                         until <placeName type="city" key="skepsis" nymRef="Σκῆψις"
+                        ref="http://pleiades.stoa.org/places/550890">Scepsis</placeName> and the
+                    territory of <placeName type="city" key="ilion" nymRef="Ἴλιον"
+                        ref="http://pleiades.stoa.org/places/550595">Ilion</placeName>. <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος"
+                            ><name>Demetrios</name></persName>, being, as a native, well-acquainted
+                    with these places, spoke once in this way about them:</seg> 
+                    
+                    <seg type="fragment" resp="demetrios" n="2">
+                        <quote>there is indeed a hill of <geogName type="mountain" key="Ida" nymRef="Ἴδη"
+                            ref="http://pleiades.stoa.org/places/550592">Mount Ida</geogName>,
+                        called <geogName type="mountain" key="cotylos" nymRef="Κότυλος"
+                            ref="http://pleiades.stoa.org/places/550668">Kotylos</geogName>; it lies
+                        about a hundred and twenty stadia above <placeName type="city" key="skepsis"
+                            nymRef="Σκῆψις" ref="http://pleiades.stoa.org/places/550890"
+                            >Scepsis</placeName> and from it flow the <geogName type="river"
+                            key="scamandrus" nymRef="Σκάμανδρος"
+                            ref="http://pleiades.stoa.org/places/465994">Scamander</geogName>, the
+                            <geogName type="river" key="granicus" nymRef="Γράνικος"
+                            ref="http://pleiades.stoa.org/places/511260">Granicos</geogName> and the
+                            <geogName type="river" key="aesepus" nymRef="Αἴσηπος"
+                            ref="http://pleiades.stoa.org/places/511141"
+                    >Aesepus</geogName>,</quote>
+                    </seg>
+                </ab>
+            </div>
+
+
+            <div type="commentary">
+                <p/>
+            </div>
+
+        </body>
+    </text>
+</TEI>

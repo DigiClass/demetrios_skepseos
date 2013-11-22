@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="introduction">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The fragments of Demetrios of Skepsis</title>
+                <author>Demetrios of Skepsis</author>
+                <editor>Dr Alexandra Trachsel</editor>
+                <funder>Marie Curie Research Fellowship Programme</funder>
+                <funder>University of Hamburg</funder>
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Encoder and editor of this digital publication</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Department of Classics</publisher>
+                <authority>King's College London</authority>
+                <address>
+                    <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                    <addrLine>(<ref>http://www.kcl.ac.uk/cch/</ref>)</addrLine>
+                </address>
+                <idno type="filename" xml:id="intro">Introduction</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                        (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                </availability>
+                <date>October 2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up in XML according to the TEI Guidelines at http://www.tei-c.org; schema
+                generated with ROMA and outlined in demetrios_ODD.xml and demetrios.rnc</p>
+            <projectDesc>
+                <p>XML document created for Dr Alexandra Trachsel's digital publication of the
+                    fragments of Demetrios of Skepsis, as part of her habilitation.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <head>Introduction</head>
+            
+           <div> 
+               <p>...</p>
+               <p>...</p>
+               <p>...</p>
+               <p>...</p>
+           </div>
+            
+            <div>
+                <p>Link to repository</p>
+            </div>
+            
+        </body>
+    </text>
+</TEI>

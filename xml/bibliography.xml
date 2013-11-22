@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_bare.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bibliography">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bibliography</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Encoding according to the TEI P4 Guidelines</p>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="Simona Stoyanova" when="2013-07">created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>Bibliography</head>
+
+            <div type="editions">
+                <head>Editions</head>
+                <listBibl>
+                    <bibl xml:id="biraschi2013">
+                        <author><forename>A. M.</forename>
+                            <surname>Biraschi</surname></author>, <title level="m">Demetrios
+                            Skepsios</title>, in <title level="s">Die Fragmente der Griechischen
+                            Historiker continued Part V</title>, ed. <editor><forename>H. -
+                                J.</forename>
+                            <surname>Gehrke</surname></editor>, <date>2013</date>, <publisher>Brill
+                            Publishing</publisher>, available online at <ref type="external"
+                            target="http://referenceworks.brillonline.com/entries/fragmente-der-griechischen-historiker-v/demetrios-von-skepsis-2013-a2013"
+                            >Brill Online</ref>
+                    </bibl>
+
+                    <bibl xml:id="radt2002-11"><editor><forename>St.</forename>
+                            <surname>Radt</surname></editor>, <title level="m">Strabons
+                            Geographika</title>, <pubPlace>Göttingen</pubPlace>, <date>2002 -
+                            2011</date>
+                    </bibl>
+
+                    <bibl xml:id="kramer1852">
+                        <author>Strabo</author>, ed. <editor role="principal"><forename>G.</forename>
+                            <surname>Kramer</surname></editor>, <title level="m">Strabonis
+                            Geographica. Ed. minor</title>, <pubPlace>Berlin</pubPlace>,
+                            <date>1852</date>
+                    </bibl>
+
+                    <bibl xml:id="eust">
+                        <author role="principal" >Eustathius</author>, <title level="m">Eustathii archiepiscopi
+                            Thessalonicensis commentarii ad Homeri Iliadem pertinentes</title>, ed.
+                                <editor><forename>M.</forename>
+                            <surname>van der Valk</surname></editor>, <pubPlace>Leiden</pubPlace>,
+                            <date>1971-1987</date>
+                    </bibl>
+
+                    <bibl xml:id="hesych">
+                        <author>Hesychius</author>, 
+                        <title level="m">Lexicon (Α—Ο)</title>, 
+                        ed. <editor><surname>Latte</surname></editor>, <pubPlace>Copenhagen</pubPlace>, <date>1953-1966</date>,
+                        <title level="m">Lexicon (Π‑Σ)</title>, 
+                        ed. <editor><surname>Hansen</surname></editor>, <pubPlace>Berlin, New York</pubPlace>, <date>2005</date>, 
+                        <title level="m">Lexicon (Τ‑Ω)</title>, 
+                        ed. <editor><surname>Cunningham</surname></editor>, ed. <editor><surname>Hansen</surname></editor>, 
+                        <pubPlace>Berlin, New York</pubPlace>, <date>2009</date>
+                    </bibl>
+                    
+                    <bibl xml:id="hercher1881">
+                        <author><forename>R.</forename> <surname>Hercher</surname></author>, 
+                        <title level="m">Homerische Aufsätze von Rudolf Hercher : mit dem Bildniss Herchers</title>, 
+                        ed. <editor><forename>Carl</forename> <surname>Robert</surname></editor>, 
+                        <pubPlace>Berlin</pubPlace>, <date>1881</date>, available online at the 
+                        <ref type="external" target="http://archive.org/details/homerischeaufst00hercgoog">Internet Archive</ref>
+                    </bibl>
+                    
+                    <bibl xml:id="gaede">
+                        <editor><forename>R.</forename> <surname>Gaede</surname></editor>,
+                        <title level="m">Demetrii Skepsii quae supersunt</title>,
+                        <pubPlace>Greifswald</pubPlace>, <date>1880</date>
+                    </bibl>
+                    
+                    <bibl xml:id="leaf1923">
+                        <author><forename>W.</forename> <surname>Leaf</surname></author>,
+                        <title level="m">Strabo on the Troad</title>,
+                        <pubPlace>Cambridge</pubPlace>, <date>1923</date>
+                    </bibl>
+                    
+                    <bibl xml:id="groskurd">
+                        <author><forename>C. G.</forename> <surname>Groskurd</surname></author>,
+                        <title level="m">Strabons Erdbeschreibung in 17 Büchern, nach berichtigtem griechischen Texte, 
+                        unter Begleitung kritischer und erklärender Anmerkungen verdeutscht</title>, 
+                        4 volumes, <date>1831 - 1834</date>. 
+                        Available at Google books: <ref type="external" target="http://books.google.co.uk/books?id=UgcqAAAAYAAJ&amp;pg=PR1#v=onepage&amp;q&amp;f=false">Vol 1</ref>,
+                        <ref type="external" target="http://books.google.co.uk/books?id=ALg_AAAAcAAJ&amp;pg=PP4#v=onepage&amp;q&amp;f=false">Vol 2</ref>,
+                        <ref type="external" target="http://books.google.co.uk/books?id=Drg_AAAAcAAJ&amp;pg=PP7#v=onepage&amp;q&amp;f=false">Vol 3</ref>,
+                        <ref type="external" target="http://books.google.co.uk/books?id=3qs-AAAAcAAJ&amp;pg=PP5#v=onepage&amp;q&amp;f=false">Vol 4</ref>.
+                    </bibl>
+                    
+                    <bibl xml:id="meineke1877">
+                        <editor><forename>A.</forename> <surname>Meineke</surname></editor>, 
+                        <title level="m">Strabonis Geographica</title>, 
+                        <pubPlace>Leipzig</pubPlace>, <date>1877</date>
+                    </bibl>
+                    
+                    <bibl xml:id="maass">
+                        <author><forename>E.</forename> <surname>Maass</surname></author>,
+                        <title level="a">De Demetrio Scepsio</title>,
+                        <title level="m">De Sibyllarum indicibus</title>,
+                        <pubPlace>Greifswald</pubPlace>,
+                        <date>1879</date>, <biblScope type="pp">22-27</biblScope>
+                    </bibl>
+                    
+                    <bibl xml:id="erbse">
+                        <author><forename>H.</forename> <surname>Erbse</surname></author>,
+                        <title level="m">Scholia Graeca in Homeri Iliadem</title>,
+                        <pubPlace>Berlin</pubPlace>,
+                        <date>1969-88</date>
+                        <relatedItem>
+                            <msDesc xml:id="t">
+                                <msIdentifier>
+                                    <msName>T scholia</msName>
+                                </msIdentifier>
+                            </msDesc>
+                        </relatedItem>
+                    </bibl>
+                    
+                    <bibl xml:id="madvig">
+                        <author><forename>L N.</forename> <surname>Madvig</surname></author>, 
+                        <title level="m">Adversaria critica ad script ores graecos. Ad Strabonem</title>,
+                        <biblScope type="vol">I</biblScope>, 
+                        <pubPlace>Havn</pubPlace>, <date>1871</date> , <biblScope type="pp">520</biblScope>
+                    </bibl>
+                    
+                    <bibl xml:id="palmerius">
+                        <author><forename>J.</forename> <surname>Palmerius</surname></author> et all.,
+                        <title level="m">Geographica antiqua, hoc est: Scylacis Periplus Maria Mediterranei. Anonymi Periplus Maeotidis Paludis &amp; Ponti Euxini. 
+                        Agathemeri Hypotyposis geographiae, omnia Graeco-Latina. Anonymi Expositio totius mundi Latina.</title>,
+                        <pubPlace>Lugdunum Batavorum</pubPlace>, <date>1697</date>
+                    </bibl>
+                    
+                    <bibl xml:id="cobet">
+                        <author><forename>C. G.</forename> <surname>Cobet</surname></author>,
+                        <title level="m">Miscellanea</title>, <!-- Miscellanea critica quibus continentur observationes criticae in scriptores graecos praesertim Homerum et Demosthenem. Leiden 1876  ??? -->
+                        <biblScope type="pp">186</biblScope>
+                    </bibl>
+                    
+                    <bibl xml:id="korais">
+                        <author><forename>A.</forename> <surname>Korais</surname></author>
+                    </bibl>
+                    
+                    <bibl xml:id="xylander">
+                        <author><forename>W.</forename> <surname>Xylander</surname></author>
+                    </bibl>
+                    
+                    <bibl xml:id="heyne">
+                        <author><forename>C. G.</forename> <surname>Heyne</surname></author>
+                    </bibl>
+                </listBibl>
+            </div>
+                    
+            <div type="collections">
+                <head>Collections</head>
+                <listBibl>
+                    <bibl xml:id="bnj">
+                        <author><forename>Felix</forename> <surname>Jacoby</surname></author>,
+                        <editor><forename>Ian</forename> <surname>Worthington</surname></editor>,
+                        <title level="m">Brill's New Jacoby</title>, available online at
+                        <ref type="external" target="http://referenceworks.brillonline.com/browse/brill-s-new-jacoby">Brill online</ref>
+                    </bibl>
+                    
+                    <bibl xml:id="fhg">
+                        <author><forename>K. W. L.</forename> <surname>Müller</surname></author>,
+                        <title level="m">Fragmenta Historicorum Graecorum</title>,
+                        <pubPlace>Paris</pubPlace>, <date>1841–1870</date>, available online at
+                        <ref type="external" target="http://archive.org/details/cuafragmentahist01mull">Vol 1</ref>;
+                        <ref type="external" target="http://archive.org/details/cuafragmentahist02mull">Vol 2</ref>;
+                        <ref type="external" target="http://archive.org/details/cuafragmentahist03mull">Vol 3</ref>;
+                        <ref type="external" target="http://archive.org/details/cuafragmentahist04mull">Vol 4</ref>;
+                        <ref type="external" target="http://archive.org/details/cuafragmentahist05mull">Vol 5</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+
+            <div type="manuscripts">
+                <head>Manuscripts</head>
+                <listBibl>
+                    <msDesc xml:id="B">
+                        <msIdentifier>
+                            <idno>Athous Vatop. 655</idno>
+                            <msName>B</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc xml:id="C">
+                        <msIdentifier>
+                            <idno>Parisinus gr. 1393</idno>
+                            <msName>C</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc xml:id="D">
+                        <msIdentifier>
+                            <idno>Marcianus gr. XI 6</idno>
+                            <msName>D</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc xml:id="E">
+                        <msIdentifier>
+                            <idno>Vaticanus gr. 482</idno>
+                            <msName>E</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc xml:id="F">
+                        <msIdentifier>
+                            <idno>Vaticanus gr. 1329</idno>
+                            <msName>F</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc xml:id="P">
+                        <msIdentifier>
+                            <idno>Vaticanus gr. 2306 + A</idno>
+                            <msName>P</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc xml:id="x">
+                        <msIdentifier>
+                            <idno>Laurentianus 28, 19</idno>
+                            <msName>x</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc xml:id="z">
+                        <msIdentifier>
+                            <idno>Laurentianus 28, 15</idno>
+                            <msName>z</msName>
+                        </msIdentifier>
+                    </msDesc>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../xslt/demetrios.css"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/demetrios.xsl"?>
+<?xml-model href="../schema/tei_bare.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="f31biraschi">
+    <!-- CTS namespace -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The fragments of Demetrios of Skepsis</title>
+                <author>Demetrios of Skepsis</author>
+                <editor>Dr Alexandra Trachsel</editor>
+                <funder>Marie Curie Research Fellowship Programme</funder>
+                <funder>University of Hamburg</funder>
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Encoder and editor of this digital publication</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Department of Classics</publisher>
+                <authority>King's College London</authority>
+                <address>
+                    <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                    <addrLine>(<ref>http://www.kcl.ac.uk/cch/</ref>)</addrLine>
+                </address>
+                <idno type="filename" xml:id="f31">F31</idno>
+                <!-- to be changed later -->
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                            (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                </availability>
+                <date><!-- date of final version --></date>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <msDesc>
+                        <msIdentifier xml:id="B">
+                            <idno>Athous Vatop. 655</idno>
+                            <msName>B</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc>
+                        <msIdentifier xml:id="C">
+                            <idno>Parisinus gr. 1393</idno>
+                            <msName>C</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc>
+                        <msIdentifier xml:id="D">
+                            <idno>Marcianus gr. XI 6</idno>
+                            <msName>D</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc>
+                        <msIdentifier xml:id="F">
+                            <idno>Vaticanus gr. 1329</idno>
+                            <msName>F</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc>
+                        <msIdentifier xml:id="E">
+                            <idno>Vaticanus gr. 482</idno>
+                            <msName>E</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc>
+                        <msIdentifier xml:id="x">
+                            <idno>Laurentianus 28, 19</idno>
+                            <msName>x</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc>
+                        <msIdentifier xml:id="z">
+                            <idno>Laurentianus 28, 15</idno>
+                            <msName>z</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <msDesc>
+                        <msIdentifier xml:id="T">
+                            <!--  <idno>Erbse - add full bibl. info</idno>-->
+                            <msName>T scholia</msName>
+                        </msIdentifier>
+                    </msDesc>
+                    <bibl>
+                        <ptr target="biraschi2013"/>
+                        <ptr target="radt2002-11"/>
+                        <ptr target="kramer1852"/>
+                        <ptr target="hercher1881"/>
+                        <ptr target="hesych"/>
+                        <ptr target="eust"/>
+                        <ptr target="gaede"/>
+                        <ptr target="leaf1923"/>
+                        <ptr target="groskurd"/>
+                        <ptr target="meineke1877"/>
+                        <ptr target="maass"/>
+                        <ptr target="erbse"/>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up in XML according to the TEI Guidelines at http://www.tei-c.org; schema
+                generated with ROMA and outlined in demetrios_ODD.xml and demetrios.rnc</p>
+            <projectDesc>
+                <p>XML document created for Dr Alexandra Trachsel's digital publication of the
+                    fragments of Demetrios of Skepsis, as part of her habilitation.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="xylander">
+                        <persName>
+                            <forename>W.</forename>
+                            <surname>Xylander</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <langUsage>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="Simona Stoyanova" when="2013-06">Created XML file, started
+                transcription</change>
+            <change who="Alxandra Trachsel" when="2013-06">Added translation and the mark-ups in the
+                translation, minor revisions</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>F31 [Biraschi]</head>
+
+            <div type="edition" subtype="fragment" xml:id="biraschi.item_54" n="a" xml:lang="grc">
+                <ab>
+                    <seg type="context" resp="strabo" n="1">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:13.1.44@πάλιν-13.1.44@Δημήτριος">Strab. 13, 1, 44:</ref> 
+                        Πάλιν δ᾿ οὕτως<anchor xml:id="app1"/> φησίν (ὁ <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος"><name>Δημήτριος</name></persName>)
+                    </seg>
+                    
+                    <seg type="fragment" resp="demetrios" xml:id="troic-diac" n="2">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:13.1.44@ὁ[2]-13.1.44@ἐστιν"/>
+                        <cit>
+                            <quote>ὁ μὲν <geogName type="river" key="rhesus" nymRef="Ῥῆσος Ῥοείτης" ref="http://pleiades.stoa.org/places/511398">Ῥῆσος</geogName>
+                                ποταμὸς νῦν καλεῖται <geogName type="river" corresp="rhesus" nymRef="Ῥῆσος Ῥοείτης">Ῥοείτης</geogName>, 
+                                εἰ μὴ ἄρα <geogName cert="unknown" type="river" key="unknown">ὁ εἰς τὸν 
+                                 <geogName type="river" key="granicus" nymRef="Γράνικος" ref="http://pleiades.stoa.org/places/511260">Γράνικον</geogName> ἐμβάλλων **</geogName>
+                                <geogName type="river" key="rhesus" nymRef="Ῥῆσος Ῥοείτης" ref="http://pleiades.stoa.org/places/511398">Ῥῆσός</geogName> ἐστιν.</quote>
+                        </cit>
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="3">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:13.1.44@Ἑπτάπορος-13.1.44@γράφει"/>
+                        <geogName type="river" key="heptaporus" nymRef="Ἑπτάπορος Πολύπορον">Ἑπτάπορος</geogName> 
+                        δέ, ὃν καὶ <geogName type="river" corresp="heptaporus" nymRef="Ἑπτάπορος Πολύπορον">Πολύπορον</geogName> λέγουσιν,
+                            ἑπτάκι<anchor xml:id="app2"/> διαβαινόμενος ἐκ τῶν περὶ τὴν 
+                        <geogName type="mountain" key="kalepeuke" nymRef="Καλὴ πεύκη" ref="http://pleiades.stoa.org/places/550607">Καλὴν πεύκην</geogName>
+                        χωρίων ἐπὶ <placeName type="city" key="melaina" nymRef="Μελαινά" >Μελαινὰς</placeName> κώμην ἰοῦσι καὶ τὸ 
+                        <placeName type="sanctuary" key="asclepeion-kalepeuke" nymRef="Ἀσκληπιεῖον">Ἀσκληπίειον</placeName>, ἵδρυμα 
+                        <persName key="lysimachus" nymRef="Λυσίμαχος"><name>Λυσιμάχου</name></persName>. περὶ δὲ τῆς
+                         <geogName type="mountain" key="kalepeuke" nymRef="Καλὴ πεύκη" ref="http://pleiades.stoa.org/places/550607">Καλῆς πεύκης</geogName>
+                        <persName key="attalusI" nymRef="Ἄτταλος ὁ πρῶτος"><name>Ἄτταλος</name> <nameLink>ὁ</nameLink> <name>πρῶτος</name></persName> 
+                        βασιλεύσας οὕτως γράφει·
+                    </seg>
+                    
+                    <seg type="fragment" resp="attalus" n="4">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:13.1.44@τὴν[2]-13.1.44@πηχῶν"/>
+                        <cit>
+                            <quote>τὴν μὲν περίμετρον εἶναί φησι ποδῶν τεττάρων καὶ εἴκοσι, τὸ δὲ
+                                ὕψος ἀπὸ μὲν ῥίζης †ἐᾶν†<anchor xml:id="app3"/> ἐπὶ ἑξήκοντα καὶ
+                                ἑπτὰ πόδας, εἶτ᾿ εἰς τρία σχιζομένην ἴσον<anchor xml:id="app4"/>
+                                ἀλλήλων διέχοντα, εἶτα πάλιν συναγομένην εἰς μίαν κορυφήν
+                                ἀποτελοῦσαν τὸ<anchor xml:id="app5"/> πᾶν ὕψος δυεῖν πλέθρων καὶ
+                                πεντεκαίδεκα πηχῶν·</quote>
+                        </cit>
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="5">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:13.1.44@Ἀδραμυττίου-13.1.44@Αἴνιον"/>
+                        <placeName type="city" key="adramyttium" nymRef="Ἀδραμύττιον" ref="http://pleiades.stoa.org/places/550403">Ἀδραμυττίου</placeName> 
+                        δὲ διέχει πρὸς ἄρκτον ἑκατὸν καὶ ὀγδοήκοντα σταδίους. 
+                        <geogName type="river" key="caresus" nymRef="Κάρησος Πίδυς" ref="http://pleiades.stoa.org/places/511287">Κάρησος</geogName> 
+                        δ᾿ ἀπὸ <geogName type="mountain" key="maloeis" nymRef="Μαλόεις" ref="http://pleiades.stoa.org/places/550717">Μαλοῦντος</geogName> 
+                        ῥεῖ, τόπου τινὸς κειμένου μεταξὺ <placeName type="city" key="palaiskepsis" nymRef="Παλαίσκηψις Παλαισκήψις"  ref="http://pleiades.stoa.org/places/550800">Παλαισκήψεως</placeName> 
+                        καὶ <placeName type="city" key="achaiion" nymRef="Ἀχαίιον" ref="http://pleiades.stoa.org/places/550398">Ἀχαιίου</placeName> τῆς 
+                        <geogName type="ethnic" key="tenedos" nymRef="Τένεδος" ref="http://pleiades.stoa.org/places/550912">Τενεδίων <geogFeat>περαίας</geogFeat></geogName>, 
+                        ἐμβάλλει δὲ εἰς τὸν <geogName type="river" key="aesepus" nymRef="Αἴσηπος" ref="http://pleiades.stoa.org/places/511141">Αἴσηπον</geogName><anchor xml:id="app6"/>· 
+                        <geogName type="river" key="rhodius" nymRef="Ῥοδίος" ref="http://pleiades.stoa.org/places/501590">Ῥοδίος</geogName> δὲ ἀπὸ
+                        <placeName type="city" key="kleandria" nymRef="Κλεανδρία" ref="http://pleiades.stoa.org/places/554258">Κλεανδρίας</placeName> 
+                        καὶ <placeName type="city" key="gordon" nymRef="Γόρδον">Γόρδου</placeName>, ἃ διέχει τῆς 
+                        <geogName type="mountain" key="kalepeuke" nymRef="Καλὴ πεύκη" ref="http://pleiades.stoa.org/places/550607">Καλῆς πεύκης</geogName>
+                        ἑξήκοντα σταδίους, ἐμβάλλει δ᾿ εἰς τὸν <geogName type="river" key="ainios" nymRef="Αἴνιος">Αἴνιον</geogName>. 
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="6">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:13.1.45@τοῦ-13.1.45@ἀποτετολμηκότας">Strab. 13, 1, 45:</ref> 
+                        τοῦ δ᾿ <geogFeat type="valley">αὐλῶνος</geogFeat> τοῦ περὶ τὸν 
+                        <geogName type="river" key="aesepus" nymRef="Αἴσηπος" ref="http://pleiades.stoa.org/places/511141">Αἴσηπον</geogName> 
+                        ἐν ἀριστερᾷ τῆς ῥύσεως αὐτοῦ πρῶτον ἔστι <placeName type="city" key="policna" nymRef="Πολίχνα" ref="http://pleiades.stoa.org/places/554313">Πολίχνα</placeName>,
+                        τειχῆρες χωρίον, εἶθ᾿ ἡ <placeName type="city" key="palaiskepsis" nymRef="Παλαίσκηψις Παλαισκήψις"  ref="http://pleiades.stoa.org/places/550800">Παλαίσκηψις</placeName><anchor xml:id="app7"/>, 
+                        εἶτ᾿ <placeName type="city" key="alazonion" nymRef="Ἀλαζόνιον">Ἀλαζόνιον</placeName> (τοῦτ᾿ ἤδη πεπλασμένον πρὸς τὴν τῶν 
+                        <placeName type="ethnic" nymRef="Ἁλιζῶνες">Ἁλιζώνων</placeName> ὑπόθεσιν, περὶ ὧν εἰρήκαμεν 
+                        (<ref target="urn:cts:greekLit:tlg0099.tlg001.radt:12.3.20">Strab. 12, 3, 20</ref>)), <!-- make this clickable --> 
+                        εἶτα <placeName type="city" key="karesos" nymRef="Κάρησος">Κάρησος</placeName> ἐρήμη καὶ ἡ
+                        <placeName type="region" key="caresene" nymRef="Καρησηνή" ref="http://pleiades.stoa.org/places/511286">Καρησηνὴ</placeName> 
+                        καὶ <rs key="caresus" nymRef="Κάρησος Πίδυς">ὁμώνυμος ποταμός</rs>, ποιῶν καὶ αὐτὸς <geogFeat type="valley">αὐλῶνα</geogFeat> ἀξιόλογον, 
+                        ἐλάττω δὲ τοῦ περὶ τὸν <geogName type="river" key="aesepus" nymRef="Αἴσηπος" ref="http://pleiades.stoa.org/places/511141">Αἴσηπον</geogName>· 
+                        τὰ δ᾿ ἑξῆς ἤδη τὰ τῆς <placeName type="city" key="zeleia" nymRef="Ζέλεια" ref="http://pleiades.stoa.org/places/511461">Ζελείας</placeName> ἐστὶ
+                        <geogFeat key="zeleiaplain" nymRef="Ζέλεια">πεδία</geogFeat> καὶ <geogFeat key="zeleiaptaleau" nymRef="Ζέλεια">ὀροπέδια</geogFeat>, καλῶς
+                        γεωργούμενα. ἐν δεξιᾷ δὲ τοῦ <geogName type="river" key="aesepus" nymRef="Αἴσηπος" ref="http://pleiades.stoa.org/places/511141">Αἰσήπου</geogName> 
+                        μεταξὺ <placeName type="city" key="policna" nymRef="Πολίχνα" ref="http://pleiades.stoa.org/places/554313">Πολίχνας</placeName> τε καὶ 
+                        <placeName type="city" key="palaiskepsis" nymRef="Παλαισκήψις" ref="http://pleiades.stoa.org/places/550800">Παλαισκήψεως</placeName><anchor xml:id="app8"/>
+                        <placeName type="city" key="ainea" nymRef="Αἰνέα" ref="http://pleiades.stoa.org/places/554179">Αἰνέα</placeName><anchor xml:id="app9"/> 
+                        κώμη καὶ <placeName type="city" key="argyria" nymRef="Ἀργυρία" ref="http://pleiades.stoa.org/places/550451">Ἀργυρία</placeName>. 
+                        καὶ τοῦτο πάλιν πλάσμα<anchor xml:id="app10"/> πρὸς τὴν αὐτὴν<anchor xml:id="app11"/> ὑπόθεσιν, ὅπως σωθείη τὸ 
+                            (<ref target="urn:cts:greekLit:tlg0012.tlg001:2.857">Il. 2. 857</ref>) <quote>ὅθεν ἀργύρου ἐστὶ γενέθλη</quote>. 
+                        ἡ οὖν <placeName type="city" key="alybe" nymRef="Ἀλύβη Ἀλόπη" ref="http://pleiades.stoa.org/places/554184">Ἀλύβη</placeName> ποῦ, ἢ
+                        <placeName type="city" corresp="alybe" nymRef="Ἀλύβη Ἀλόπη">Ἀλόπη</placeName> ἢ ὅπως βούλονται παρονομάζειν; ἐχρῆν γὰρ καὶ τοῦτο πλάσαι 
+                        παρατριψαμένους τὸ μέτωπον, καὶ μὴ χωλὸν ἐᾶν καὶ ἕτοιμον πρὸς ἔλεγχον ἅπαξ ἤδη ἀποτετολμηκότας. 
+                    </seg>
+                    
+                    <seg type="testimonium" xml:id="biraschi.item_4" resp="strabo" n="7">
+                        <title>[T4]</title>
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:13.1.45@ταῦτα-13.1.45@Τρώων"/> <!-- Biraschi lists it as T1, mistake --> 
+                        ταῦτα μὲν οὖν ἔνστασιν ἔχει τοιαύτην, τἆλλα δὲ ὑπολαμβάνομεν, ἢ τά γε πλεῖστα, δεῖν προσέχειν ὡς
+                        <rs key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος">ἀνδρὶ ἐμπείρῳ καὶ ἐντοπίῳ</rs>, φροντίσαντί τε τοσοῦτον περὶ
+                        τούτων ὥστε τριάκοντα βίβλους συγγράψαι στίχων ἐξήγησιν μικρῷ πλειόνων ἑξήκοντα, τοῦ 
+                        <ref target="urn:cts:greekLit:tlg0012.tlg001:2.816-2.877">Καταλόγου τῶν Τρώων</ref>. 
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="8">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001.radt:13.1.45@φησὶ-13.1.45@ἀπελίπομεν"/>
+                         φησὶ δ᾿ οὖν τὴν <placeName type="city" key="palaiskepsis" nymRef="Παλαίσκηψις Παλαισκήψις"  ref="http://pleiades.stoa.org/places/550800">Παλαίσκηψιν</placeName> 
+                        τῆς μὲν <placeName type="city" key="ainea" nymRef="Αἰνέα" ref="http://pleiades.stoa.org/places/554179">Αἰνέας</placeName><anchor xml:id="app12"/> 
+                        διέχειν πεντήκοντα σταδίους, τοῦ δὲ ποταμοῦ τοῦ
+                        <geogName type="river" key="aesepus" nymRef="Αἴσηπος" ref="http://pleiades.stoa.org/places/511141">Αἰσήπου</geogName>
+                        τριάκοντα· ἀπὸ δὲ τῆς <placeName type="city" key="palaiskepsis" nymRef="Παλαίσκηψις Παλαισκήψις"  ref="http://pleiades.stoa.org/places/550800">Παλαισκήψεως</placeName><anchor xml:id="app13"/> 
+                        ταύτης διατεῖναι τὴν ὁμωνυμίαν καὶ εἰς ἄλλους πλείους τόπους. ἐπάνιμεν δὲ ἐπὶ τὴν παραλίαν ὅθενπερ ἀπελίπομεν. 
+                    </seg>
+                    
+                </ab>
+            </div>
+
+            <div type="edition" subtype="fragment" xml:id="biraschi.item_55" n="b" xml:lang="grc">
+                <ab>
+                    
+                    <seg type="context" resp="t" n="1">
+                        <ref target="urn:cts:greekLit:tlg5026.tlg001:@Ῥῆσος-@ὀγδοήκοντα">Schol. T Il. 12. 20a:</ref> (cf. Eust. 889,59) <!-- find exact reference -->
+                        <geogName type="river" key="rhesus" nymRef="Ῥῆσος Ῥοείτης" ref="http://pleiades.stoa.org/places/511398">Ῥῆσος</geogName>· 
+                        <geogName corresp="rhesus" nymRef="Ῥῆσος Ῥοείτης">Ῥοείτης</geogName><anchor xml:id="app14"/> 
+                        μετωνόμασται. ῥεῖ δὲ πρὸς ἄρκτον ἀπὸ 
+                        <geogName type="mountain" key="kalepeuke" nymRef="Καλὴ πεύκη" ref="http://pleiades.stoa.org/places/550607">Καλῆς Πεύκης</geogName>,
+                        ἥτις ἀπέχει ἀπὸ <placeName type="city" key="adramyttium" nymRef="Ἀδραμύττιον" ref="http://pleiades.stoa.org/places/550403">Ἀδραμυττείου</placeName><anchor xml:id="app15"/> 
+                        στάδια ἑκατὸν ὀγδοήκοντα<anchor xml:id="app16"/>. 
+                    </seg>
+                    
+                </ab>
+            </div>
+
+            <div type="edition" subtype="fragment" xml:id="biraschi.item_56" n="c" xml:lang="grc">
+                <ab>
+                    
+                    <seg type="context" resp="t" n="1">
+                        <ref target="urn:cts:greekLit:tlg5026.tlg001:@Ῥοδίος-@ἑξήκοντα">Schol. T Il. 12. 20e:</ref><!-- find exact reference -->
+                        <geogName type="river" key="rhodius" nymRef="Ῥοδίος" ref="http://pleiades.stoa.org/places/501590">Ῥοδίος</geogName>·
+                        <geogName corresp="rhodius" nymRef="Ῥοδίος Δάρδανος">Δάρδανος</geogName> καλεῖται. ῥεῖ δὲ ἀπὸ 
+                        <placeName type="city" key="kleandria" nymRef="Κλεανδρία" ref="http://pleiades.stoa.org/places/554258">Κλεανδρίας</placeName> 
+                        <supplied resp="hercher1881">δι</supplied>εχούσης<anchor xml:id="app17"/>
+                        <geogName type="mountain" key="kalepeuke" nymRef="Καλὴ πεύκη" ref="http://pleiades.stoa.org/places/550607">Πεύκης</geogName><anchor xml:id="app18"/> 
+                        σταδίους ἑξήκοντα.
+                    </seg>
+                    
+                </ab>
+            </div>
+            
+            <div type="edition" xml:id="biraschi.item_57" xml:lang="grc" n="1">
+                <ab>
+                    
+                    <seg type="cf" resp="hesych" n="1">
+                        <ref target="urn:cts:greekLit:tlg4085.tlg002.latte:Ῥοδίος">Hesych. s.v.  Ῥοδίος:</ref><!-- check that reference -->
+                        <geogName type="river" key="rhodius" nymRef="Ῥοδίος" ref="http://pleiades.stoa.org/places/501590">Ῥοδίος</geogName>· 
+                        ποταμός· ὁ νῦν <geogName corresp="rhodius" nymRef="Ῥοδίος Δάρδανος">Δάρδανος</geogName>.
+                    </seg>
+                    
+                </ab>
+            </div>
+
+
+            <div type="apparatus">
+                <listApp n="1" corresp="#biraschi.item_54">
+                    <app from="#app1">
+                        <rdg resp="kramer1852">οὕτως</rdg>
+                        <rdg resp="codd">οὗτος</rdg>
+                        <rdg resp="hercher1881">
+                            <note>(1877: 773<!-- 5 superscript -->, 775)</note> <!-- a different work by him, not the Homerische Aufsätze? -->
+                        </rdg>
+                    </app>
+
+                    <app from="#app2">
+                        <rdg resp="eust">ἑπτάκις</rdg>
+                    </app>
+
+                    <app from="#app3">
+                        <rdg resp="B C F">ἐᾶν</rdg>
+                        <rdg resp="D">ἐὰν</rdg>
+                        <rdg resp="x">ἂν εἴη</rdg>
+                        <rdg resp="kramer1852">ἀνιέναι <note>(ἀνῄει in X legi ratus)</note></rdg>
+                    </app>
+
+                    <app from="#app4">
+                        <rdg resp="F">ἴσον</rdg>
+                        <rdg resp="B C D">-ων</rdg>
+                    </app>
+
+                    <app from="#app5">
+                        <rdg resp="z">τὸ <note>(cf. X)</note></rdg>
+                        <rdg resp="B C D F">τότε</rdg>
+                    </app>
+
+                    <app from="#app6">
+                        <rdg resp="kramer1852">Αἴσηπον</rdg>
+                        <rdg resp="gaede" cert="low">αὐτόν</rdg>
+                    </app>
+
+                    <app from="#app7">
+                        <rdg resp="E">Παλαίσκηψις</rdg>
+                        <rdg resp="codd.">πάλαι σκῆψις</rdg>
+                        <rdg resp="xylander">Παλαισκῆψις</rdg>
+                    </app>
+
+                    <app from="#app8">
+                        <rdg resp="B C">Παλαι σκήψεως</rdg>
+                    </app>
+
+                    <app from="#app9">
+                        <rdg resp="leaf1923">Αἰνέα</rdg>
+                        <note> (1923, 26)</note>
+                        <!-- as in fr 45 [Biraschi] -->
+                        <rdg resp="codd.">ἡ νέα</rdg>
+                        <rdg resp="groskurd">ἡ Αἰνέα</rdg>
+                    </app>
+
+                    <app from="#app10">
+                        <rdg resp="kramer1852">πλάσμα <note>(duce Korais)</note></rdg>
+                        <rdg resp="F">τάγματα ἀργύρια</rdg>
+                        <rdg resp="B C D">τάγματα τὰ ἀργύρια</rdg>
+                        <rdg resp="xylander">πλάσματα τὰ ἀργύρια</rdg>
+                    </app>
+
+                    <app from="#app11">
+                        <rdg resp="biraschi2013">προσέχειν &lt;αὐτῷ&gt; <note>(vel &lt;Δημητρίῳ&gt;
+                                Capps (ap. Jones)</note></rdg>
+                    </app>
+
+                    <app from="#app12">
+                        <rdg resp="B C D">Αἰνέας</rdg>
+                        <rdg resp="F">ἐν αἴας</rdg>
+                        <rdg resp="meineke1877">Νέας</rdg>
+                    </app>
+
+                    <app from="#app13">
+                        <rdg resp="xylander">Παλαισκήψεως</rdg>
+                        <rdg resp="B C D F">πάλαι σκήψεως</rdg>
+                    </app>
+                </listApp>
+
+                <listApp n="2" corresp="#biraschi.item_55">
+                    <app from="#app14">
+                        <rdg resp="maass">ῥοείτης</rdg>
+                        <rdg resp="t">ῥοίστης</rdg>
+                    </app>
+
+                    <app from="#app15">
+                        <rdg resp="maass">ἀδραμυττίου</rdg>
+                        <rdg resp="t eust">ἀδραμυτείου</rdg>
+                    </app>
+
+                    <app from="#app16">
+                        <rdg resp="erbse">εκ. ὀγδ. <note>scripsit Erbse</note></rdg>
+                        <rdg resp="t">ρπ'</rdg>
+                    </app>
+                </listApp>
+
+                <listApp n="3" corresp="#biraschi.item_56">
+                    <app from="#app17">
+                        <rdg resp="t" type="omitted">κλεωνδρίας ἐχούσης</rdg>
+                        <rdg resp="hercher1881" type="supplied">
+                            <note>cf. Strab. 13, 1, 44</note>
+                        </rdg>
+                    </app>
+
+                    <app from="#app18">
+                        <rdg resp="t">πεύκης</rdg>
+                        <rdg resp="erbse">possis τῆς καλῆς πεύκης <note>(cf. Strab.)</note></rdg>
+                    </app>
+                </listApp>
+            </div>
+
+            <div type="translation" xml:lang="en" n="1">
+                   <ab> 
+                       <seg type="context" resp="strabo" n="a">And again he (<persName key="demetriosskepsis"
+                            nymRef="Δημήτριος ὁ Σκήψιος"><name>Demetrios</name></persName>) says as
+                            follows:
+                       </seg>
+                           
+                           <seg type="fragment" resp="demetrios" n="1">
+                               <quote>the river <geogName type="river"
+                                    key="rhesus" nymRef="Ῥῆσος Ῥοείτης"
+                                    ref="http://pleiades.stoa.org/places/511398"> Rhesus</geogName>
+                                is now called <geogName type="river" corresp="rhesus"
+                                    nymRef="Ῥοείτης">Rhoeites</geogName>, unless the <geogName
+                                    cert="unknown" type="river" key="unknown">river ** flowing into
+                                    the <geogName type="river" key="granicus" nymRef="Γράνικος"
+                                        ref="http://pleiades.stoa.org/places/511260"
+                                        >Granikos</geogName></geogName> is actually the <geogName
+                                    type="river" key="rhesus" nymRef="Ῥῆσος Ῥοείτης"
+                                    ref="http://pleiades.stoa.org/places/511398"
+                                >Rhesus</geogName>.
+                               </quote>
+                           </seg>
+                       
+                       <seg type="context" resp="strabo" n="2">The <geogName type="river"
+                           key="heptaporus" nymRef="Ἑπτάπορος Πολύπορον">Heptaporos</geogName>, which is also
+                           called <geogName type="river" corresp="heptaporus" nymRef="Ἑπτάπορος Πολύπορον"
+                            >Polyporos</geogName>, is crossed seven times by those travelling from
+                        the region around the <geogName type="mountain" key="kalepeuke"
+                            nymRef="Καλὴ πεύκη" ref="http://pleiades.stoa.org/places/550607"
+                            >Beautiful Pine</geogName> towards the village called <placeName
+                            type="city" key="melaina" nymRef="Μελαινά">Melaina</placeName> and
+                        towards the <placeName type="sanctuary" key="asclepeion-kalepeuke"
+                            nymRef="Ἀσκληπιεῖον">Asclepieion</placeName>, founded by <persName
+                            key="lysimachus" nymRef="Λυσίμαχος"><name>Lysimachos</name></persName>.
+                        About this <geogName type="mountain" key="kalepeuke" nymRef="Καλὴ πεύκη"
+                            ref="http://pleiades.stoa.org/places/550607">Beautiful Pine</geogName>
+                        <persName key="attalusI" nymRef="Ἄτταλος ὁ πρῶτος"
+                            ><name>Attalos</name></persName>, the first king, wrote in this way:</seg>
+                       
+                            <seg type="fragment" resp="attalus" n="3">
+                                <quote>its perimeter is 24 feet, from its root the
+                                top [rises] to a height of 67 feet; then, it is divided into three
+                                branches, each being at equally distant from the others, and then
+                                reunited again in one top, reaching all together a height of two
+                                plethra and fifteen cubits</quote>.
+                            </seg>
+                       
+                       <seg type="context" resp="strabo" n="4">
+                           It is at a distance of 180
+                        stadia from <placeName type="city" key="adramyttium" nymRef="Ἀδραμύττιον"
+                            ref="http://pleiades.stoa.org/places/550403">Adramyttion</placeName>
+                        towards the north. The <geogName type="river" key="caresus" nymRef="Κάρησος Πίδυς"
+                            ref="http://pleiades.stoa.org/places/511287">Karesos</geogName> flows
+                        down from <geogName type="mountain" key="maloeis" nymRef="Μαλόεις"
+                            ref="http://pleiades.stoa.org/places/550717">Malus</geogName>, a place
+                        located between <placeName type="city" key="palaiskepsis"
+                            nymRef="Παλαίσκηψις Παλαισκήψις"  ref="http://pleiades.stoa.org/places/550800"
+                            >Palaescepsis</placeName> and <placeName type="city" key="achaiion"
+                            nymRef="Ἀχαίιον" ref="http://pleiades.stoa.org/places/550398"
+                            >Achaiion</placeName>, which belongs to the coastal territory of
+                            the<geogName type="island" key="tenedos" nymRef="Τένεδος"
+                            ref="http://pleiades.stoa.org/places/550912"> Tenedians</geogName>, and
+                        empties into the <geogName type="river" key="aesepus" nymRef="Αἴσηπος"
+                            ref="http://pleiades.stoa.org/places/511141">Aesepos</geogName>. The
+                            <geogName type="river" key="rhodius" nymRef="Ῥοδίος"
+                            ref="http://pleiades.stoa.org/places/501590">Rhodios</geogName> flows
+                        down from <placeName type="city" key="kleandria" nymRef="Κλεανδρία"
+                            ref="http://pleiades.stoa.org/places/554258">Kleandria</placeName> and
+                            <placeName type="city" key="gordon" nymRef="Γόρδον">Gordos</placeName>,
+                        which are at 60 stadia away from the <geogName type="mountain"
+                            key="kalepeuke" nymRef="Καλὴ πεύκη"
+                            ref="http://pleiades.stoa.org/places/550607">Beautiful Pine</geogName> ,
+                        and empties into the <geogName type="river" key="ainios" nymRef="Αἴνιος"
+                            >Ainion</geogName>.
+                       </seg>
+                       
+                       <seg type="context" resp="strabo" n="5">
+                           The first place in the <geogFeat type="valley">valley</geogFeat>
+                        formed by the river <geogName type="river" key="aesepus" nymRef="Αἴσηπος"
+                            ref="http://pleiades.stoa.org/places/511141">Aisepos</geogName>, located
+                        on the left of its stream, is <placeName type="city" key="policna"
+                            nymRef="Πολίχνα" ref="http://pleiades.stoa.org/places/554313"
+                            >Polichna</placeName>, a place with fortifications, then comes
+                            <placeName type="city" key="palaiskepsis" nymRef="Παλαίσκηψις Παλαισκήψις" 
+                            ref="http://pleiades.stoa.org/places/550800">Palaescepsis</placeName>
+                        followed by <placeName type="city" key="alazonion" nymRef="Ἀλαζόνιον"
+                            >Alazonion</placeName> (this name has actually been fabricated in
+                        relation with the hypothesis of the <placeName type="ethnic"
+                            nymRef="Ἁλιζῶνες">Halizones</placeName>, of whom I have already spoken);
+                        then comes the abandoned <placeName type="city" key="karesos"
+                            nymRef="Κάρησος">Karesos</placeName>, the <placeName type="region"
+                            key="caresene" nymRef="Καρησηνή"
+                            ref="http://pleiades.stoa.org/places/511286">Karesene</placeName> and
+                        the <rs key="caresus" nymRef="Κάρησος Πίδυς">river with the same name</rs>, which
+                        forms also a remarkable <geogFeat type="valley">valley</geogFeat>, although
+                        less than the one of the <geogName type="river" key="aesepus"
+                            nymRef="Αἴσηπος" ref="http://pleiades.stoa.org/places/511141"
+                            >Aisepos</geogName>. What is beyond belongs already either to the
+                            <geogFeat key="zeleiaplain" nymRef="Ζέλεια">plain of Zeleia</geogFeat>
+                        or to its well cultivated <geogFeat key="zeleiaptaleau" nymRef="Ζέλεια"
+                            >plateau</geogFeat>. On the right side of the <geogName type="river"
+                            key="aesepus" nymRef="Αἴσηπος"
+                            ref="http://pleiades.stoa.org/places/511141">Aisepos</geogName>, in
+                        between <placeName type="city" key="policna" nymRef="Πολίχνα"
+                            ref="http://pleiades.stoa.org/places/554313">Polichna</placeName> and
+                            <placeName type="city" key="palaiskepsis" nymRef="Παλαισκήψις"
+                            ref="http://pleiades.stoa.org/places/550800">Palaescepsis</placeName>,
+                        there is the village called <placeName type="city" key="ainea"
+                            nymRef="Αἰνέα" ref="http://pleiades.stoa.org/places/554179"
+                            >Ainea</placeName> and <placeName type="city" key="argyria"
+                            nymRef="Ἀργυρία" ref="http://pleiades.stoa.org/places/550451"
+                            >Argyria</placeName>. This too is again a fabrication due to the same
+                        hypothesis in order to preserve the formula (<ref  target="urn:cts:greekLit:tlg0012.tlg001:2.857">Il. 2. 857</ref>) <quote>where
+                            there is the birth of silver</quote>. Where is now <placeName type="city"
+                            key="alybe" nymRef="Ἀλύβη Ἀλόπη" ref="http://pleiades.stoa.org/places/554184"
+                                >Alybe</placeName>, or <placeName corresp="alybe" nymRef="Ἀλόπη"
+                            >Alope</placeName> or to whatever extent they want to change the name?
+                        They should have fabricated this too, after having rubbed their forehead,
+                        and not have left it lame and subject to interrogations, because they have
+                        already dared this once.
+                       </seg>
+                           
+                           <seg type="testimonium" n="6" resp="strabo"><title>[T4]</title>
+                               These elements face then such objections, for
+                        the rest, however, or at least for most of it, we assume that we have to
+                        follow <persName key="demetriosskepsis" nymRef="Δημήτριος ὁ Σκήψιος"
+                            >him</persName> as a man who is acquainted with and native of the place
+                        and who has thought so much about this, that he has written 30 books about
+                        the little more than 60 lines of the <ref
+                            target="urn:cts:greekLit:tlg0012.tlg001:2.816-877">Trojan
+                            Catalogue</ref>.
+                           </seg> 
+                               
+                               <seg type="context" resp="strabo" n="7">
+                                   <persName key="demetriosskepsis"
+                            nymRef="Δημήτριος ὁ Σκήψιος">He</persName> says then that <placeName
+                            type="city" key="palaiskepsis" nymRef="Παλαίσκηψις Παλαισκήψις" 
+                            ref="http://pleiades.stoa.org/places/550800">Palaescepsis</placeName> is
+                        50 stadia away from <placeName type="city" key="ainea" nymRef="Αἰνέα"
+                            ref="http://pleiades.stoa.org/places/554179">Ainea</placeName> and 30
+                        from the <geogName type="river" key="aesepus" nymRef="Αἴσηπος"
+                            ref="http://pleiades.stoa.org/places/511141">Aisepos</geogName>; that
+                        from this <placeName type="city" key="palaiskepsis" nymRef="Παλαίσκηψις Παλαισκήψις" 
+                            ref="http://pleiades.stoa.org/places/550800">Palaescepsis</placeName>
+                        the name was applied to many other places. But we are returning to the beach
+                        where we left it first.</seg> 
+                
+
+                       <seg type="context" resp="t" n="b"><title>Schol. T Il. 12. 20a: (cf. Eust. 889,59)</title>
+                            <geogName type="river" key="rhesus" nymRef="Ῥῆσος Ῥοείτης"
+                                    ref="http://pleiades.stoa.org/places/511398">Rhesos</geogName>: it was
+                           renamed <geogName corresp="rhesus" nymRef="Ῥοείτης">Rhoeites</geogName>. It
+                                flows towards the north, down from the <geogName type="mountain"
+                                    key="kalepeuke" nymRef="Καλὴ πεύκη"
+                                    ref="http://pleiades.stoa.org/places/550607">Beautiful Pine</geogName>,
+                                which is 180 stadia away from <placeName type="city" key="adramyttium"
+                                    nymRef="Ἀδραμύττιον" ref="http://pleiades.stoa.org/places/550403"
+                                    >Adramytteion</placeName>.
+                </seg>
+
+                       <seg type="context" resp="t" n="c"><title>Schol. T Il. 12. 20e:</title>
+                        <geogName type="river" key="rhodius" nymRef="Ῥοδίος"
+                            ref="http://pleiades.stoa.org/places/501590">Rhodios</geogName>: it is
+                           called <geogName corresp="rhodius" nymRef="Δάρδανος">Dardanos</geogName>. It
+                        flows down from <placeName type="city" key="kleandria" nymRef="Κλεανδρία"
+                            ref="http://pleiades.stoa.org/places/554258">Kleandria</placeName>,
+                        which is sixty stadia away from the <geogName type="mountain"
+                            key="kalepeuke" nymRef="Καλὴ πεύκη"
+                            ref="http://pleiades.stoa.org/places/550607">Pine</geogName>.
+                </seg>
+                       
+                       <seg type="cf" resp="hesych" n="8"> <title>Hesych. s.v.  Ῥοδίος:</title>
+                             <geogName type="river" key="rhodius" nymRef="Ῥοδίος"
+                                     ref="http://pleiades.stoa.org/places/501590">Rhodios</geogName>: a
+                           river. The present <geogName corresp="rhodius" nymRef="Δάρδανος"
+                                     >Dardanos</geogName>.
+                        </seg>
+                   </ab>
+                </div>
+
+                <div type="commentary">
+                    <p>We made some minor changes, however only in the ponctuations, when
+                        Biraschi's text was too contradictory. We took Radt's edition as model.</p>
+                </div>
+        </body>
+    </text>
+</TEI>

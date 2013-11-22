@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/demetrios.xsl"?>
+<?xml-model href="../schema/tei_bare.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../xslt/demetrios.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="f30gaede">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The fragments of Demetrios of Skepsis</title>
+                <author>Demetrios of Skepsis</author>
+                <editor>Dr Alexandra Trachsel</editor>
+                <funder>Marie Curie Research Fellowship Programme</funder>
+                <funder>University of Hamburg</funder>
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Encoder and editor of this digital publication</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Department of Classics</publisher>
+                <authority>King's College London</authority>
+                <address>
+                    <addrLine>Strand, London WC2R 2LS, England, United Kingdom. Tel:+44 (0) 20 7836 5454</addrLine>
+                    <addrLine>(<ref>http://www.kcl.ac.uk/cch/</ref>)</addrLine>
+                </address>
+                <idno type="filename" xml:id="f30">F30</idno>
+                <availability>
+                    <p>Creative Commons licence Attribution UK 2.0
+                            (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+                </availability>
+                <date>October 2013</date>
+            </publicationStmt>
+            <sourceDesc>
+               <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up in XML according to the TEI Guidelines at http://www.tei-c.org; schema
+                generated with ROMA and outlined in demetrios_ODD.xml and demetrios.rnc</p>
+            <projectDesc>
+                <p>XML document created for Dr Alexandra Trachsel's digital publication of the
+                    fragments of Demetrios of Skepsis, as part of her habilitation.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="Simona Stoyanova" when="2013-06">Created XML file, started
+                transcription</change>
+            <change who="Alexandra Trachsel" when="2013-07">Added translation and item_40,
+                verification</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <head>F30 [Gaede]</head>
+
+            <div type="edition" subtype="fragment" xml:id="gaede.item_38" n="a" xml:lang="grc">
+                <ab>
+                    <seg type="context" resp="eust" n="1">
+                        <ref target="urn:cts:greekLit:tlg4083.tlg001.stallbaum:890.5@ἀπὸ-890.5@φησιν">Eust. 890, 5:</ref> 
+                        ἀπὸ τοῦ <geogName type="river" key="caresus" nymRef="Κάρησος Πίδυς" ref="http://pleiades.stoa.org/places/511287">Καρήσου</geogName> 
+                        ποταμοῦ καὶ χώρα τις <placeName type="region" key="caresene" nymRef="Καρησηνή" ref="http://pleiades.stoa.org/places/511286">Καρησηνὴ</placeName>
+                        λέγεται ἣν ὁ ἰδιωτισμὸς <placeName type="region" key="caresene" nymRef="Καρησηνή" ref="http://pleiades.stoa.org/places/511286">Κερασηνήν</placeName> 
+                        φησιν.
+                    </seg>
+                </ab>
+            </div>
+
+            <div type="edition" subtype="fragment" xml:id="gaede.item_39" n="b" xml:lang="grc">
+                <ab>
+                    <seg type="context" resp="hesych" n="1">
+                        <ref target="urn:cts:greekLit:tlg4085.tlg002:Κάρησσος">Hesych. s. v. Κάρησσος:</ref> 
+                        <geogName type="river" key="karesos"><placeName type="city" key="karesos">Κάρησος</placeName></geogName>· πόλις καὶ ποταμός. 
+                    </seg>
+                </ab>
+            </div>
+            
+            <div type="edition" subtype="fragment" xml:id="gaede.item_40" n="c" xml:lang="grc">
+                <ab>
+                    <seg type="context" resp="strabo" n="1">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001:13.1.44@ἐμπίπτει-13.1.44@καλῶς">Strab. 13, 1, 44:</ref> 
+                        ἐμπίπτει (Hercher ex συμπίπτει corr.) δ᾿ εἰς <rs type="river" key="scamandrus" nymRef="Σκάμανδρος" ref="http://pleiades.stoa.org/places/465994">αὐτὸν</rs> 
+                        (scil. <geogName type="river" key="scamandrus" nymRef="Σκάμανδρος" ref="http://pleiades.stoa.org/places/465994">Σκάμανδρον</geogName>) ὁ
+                        <geogName type="river" key="andiros" nymRef="Ἄνδειρος" ref="http://pleiades.stoa.org/places/550432">Ἄνδιρος</geogName> ἀπὸ τῆς
+                        <placeName type="region" key="caresene" nymRef="Καρησηνή" ref="http://pleiades.stoa.org/places/511286">Καρησηνῆς</placeName>,
+                        ὀρεινῆς τινὸς πολλαῖς κώμαις συνοικουμένης καὶ γεωργουμένης καλῶς, 
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="2">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001:13.1.44@ὠνομάσθαι-13.1.44@ποταμοῦ">Strab. 13, 1, 44:</ref>
+                        ὠνομάσθαι δὲ τὴν <geogFeat type="region" key="regionkaresos">χώραν</geogFeat> φασὶν ἀπὸ τοῦ 
+                        <geogName type="river" key="caresus" nymRef="Κάρησος Πίδυς" ref="http://pleiades.stoa.org/places/511287">Καρήσου <geogFeat type="river">ποταμοῦ</geogFeat></geogName>
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="3">
+                        <ref target="urn:cts:greekLit:tlg0099.tlg001:13.1.44@τὴν-13.1.44@ποταμῷ">Strab. 13, 1, 44:</ref>
+                        τὴν δὲ <placeName type="city" key="karesos">πόλιν</placeName> κατεσπάσθαι τὴν ὁμώνυμον τῷ 
+                        <rs type="river" key="karesos">ποταμῷ</rs>
+                    </seg>
+                </ab>
+            </div>
+
+
+            <div type="apparatus"/>
+
+            <div type="translation" xml:lang="en" n="1">
+                <ab>
+                    <seg type="context" resp="eust" n="a"><title>Eust. 890, 5:</title>
+                        From the river <geogName type="river" key="caresus" nymRef="Κάρησος Πίδυς"
+                            ref="http://pleiades.stoa.org/places/511287">Karesos</geogName> also a
+                        region takes <placeName type="region" key="caresene" nymRef="Καρησηνή"
+                            ref="http://pleiades.stoa.org/places/511286">Karesene </placeName> as
+                        its name, to which the more common name of <placeName type="region"
+                            key="caresene" nymRef="Καρησηνή"
+                            ref="http://pleiades.stoa.org/places/511286">Kerasene</placeName>
+                        refers.
+                    </seg>
+                    
+                    <seg type="context" resp="hesych" n="b"><title>Hesych. s. v. Κάρησσος:</title>
+                        <geogName type="river" key="karesos"><placeName type="city" key="karesos"
+                                >Karessos</placeName></geogName>: a city and a river.
+                    </seg>
+                    
+                    <seg type="context" resp="strabo" n="c"><title>Strab. 13, 1, 44:</title> 
+                        And into the <geogName type="river" key="scamandrus" nymRef="Σκάμανδρος"
+                                ref="http://pleiades.stoa.org/places/465994">Scamander</geogName>
+                            streams the <geogName type="river" key="andiros" nymRef="Ἄνδειρος"
+                                ref="http://pleiades.stoa.org/places/550432">Andiros</geogName>,
+                            coming from the <placeName type="region" key="caresene"
+                                nymRef="Καρησηνή" ref="http://pleiades.stoa.org/places/511286"
+                                >Caresene</placeName>, a hilly region scattered with many villages
+                            and beautifully cultivated, (...)
+                    </seg>
+                            
+                    <seg type="context" resp="strabo" n="1"><title>Strab. 13, 1, 44:</title>
+                        It is said that the <geogFeat type="region" key="regionkaresos"
+                                    >region</geogFeat> takes its name from the <geogName type="river"
+                                    key="caresus" nymRef="Κάρησος Πίδυς"
+                                    ref="http://pleiades.stoa.org/places/511287"><geogFeat type="river"
+                                        >river</geogFeat> Caresos</geogName> (...) 
+                    </seg>
+                
+                    <seg type="context" resp="strabo" n="2"><title>Strab. 13, 1, 44:</title>
+                        but that the <geogFeat type="city" key="karesos">city</geogFeat> which had
+                                    the same name as the <geogFeat type="river" key="karesos"
+                                        >river</geogFeat> was destroyed.
+                    </seg>
+                </ab>
+             </div>
+            
+                
+            
+                
+            
+
+            <div type="commentary">
+                <p>1) Gaede uses an edition of Hesychius where the toponym Karesos is spelt with one
+                    sigma. We give the spelling for the lemma as it appears in Latte's edition
+                    (Copenhagen 1953-1966).</p>
+                <p>2) Hercher's emendation from συμπίππτει to ἐμπίπτει is difficult to render in the
+                    translation.</p>
+                <p>3) In Gaede's text the name of the river Andiros is spelt Ἄνδιρος instead of
+                    Ἄνδειρος.</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>
